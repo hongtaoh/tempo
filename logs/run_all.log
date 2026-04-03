@@ -1,0 +1,78 @@
+nohup: ignoring input
+Training started: Sat Mar 28 07:42:46 AM JST 2026
+
+========================================
+ STEP 1 / 2 : Training lowdim models
+========================================
+Killing all training jobs...
+
+Done. Check with: nvidia-smi
+Starting parallel training...
+Reading GPU config from config.yaml
+Timestamp: 20260328_074246
+train_data_dir override: ./train
+models_dir override: ./models
+
+Starting GPU 2: exp1 exp2 exp3 exp4 exp5 exp6 exp7 exp8 exp9
+  PID: 3505746, Log: logs/gpu2_20260328_074246.log
+
+All jobs started in background (will survive terminal close)!
+
+Monitor progress with:
+  tail -f logs/gpu2_20260328_074246.log
+
+  tail -f logs/gpu*_20260328_074246.log
+
+To kill all jobs: ./kill.sh
+You can safely close this terminal now.
+Waiting for training jobs to finish...
+All jobs finished.
+Lowdim training time:  00:51:06
+  exp1: 00:05:34
+  exp2: 00:05:39
+  exp3: 00:05:39
+  exp4: 00:05:39
+  exp5: 00:05:38
+  exp6: 00:05:39
+  exp7: 00:05:38
+  exp8: 00:05:39
+  exp9: 00:05:38
+
+========================================
+ STEP 2 / 2 : Training highdim models
+========================================
+Starting parallel training...
+Reading GPU config from config.yaml
+Timestamp: 20260328_083352
+train_data_dir override: ./train_highdim
+models_dir override: ./models_highdim
+
+Starting GPU 2: exp1 exp2 exp3 exp4 exp5 exp6 exp7 exp8 exp9
+  PID: 3517140, Log: logs/gpu2_20260328_083352.log
+
+All jobs started in background (will survive terminal close)!
+
+Monitor progress with:
+  tail -f logs/gpu2_20260328_083352.log
+
+  tail -f logs/gpu*_20260328_083352.log
+
+To kill all jobs: ./kill.sh
+You can safely close this terminal now.
+Waiting for training jobs to finish...
+All jobs finished.
+Highdim training time: 07:05:51
+  exp1: 00:43:36
+  exp2: 00:47:53
+  exp3: 00:47:40
+  exp4: 00:47:53
+  exp5: 00:47:32
+  exp6: 00:47:40
+  exp7: 00:47:35
+  exp8: 00:47:47
+  exp9: 00:47:14
+Total training time:   07:56:57
+Training ended:  Sat Mar 28 03:39:43 PM JST 2026
+
+All training complete.
+Next: bash postprocess.sh

@@ -1,0 +1,127 @@
+================================================================================
+ADNI BIOMARKER ORDERING RESULTS - SUMMARY
+================================================================================
+
+--------------------------------------------------------------------------------
+1. BIOMARKER EVENT ORDERING (Early → Late)
+--------------------------------------------------------------------------------
+
+exp1:
+  EntorhinalNorm → MidTempNorm → FusiformNorm → ADAS13 → RAVLT_immediate → ABETA → HippocampusNorm → MMSE → PTAU → TAU → VentricleNorm → WholeBrainNorm
+
+exp2:
+  ADAS13 → MidTempNorm → EntorhinalNorm → RAVLT_immediate → FusiformNorm → ABETA → MMSE → HippocampusNorm → TAU → PTAU → VentricleNorm → WholeBrainNorm
+
+exp3:
+  EntorhinalNorm → MidTempNorm → ADAS13 → RAVLT_immediate → ABETA → FusiformNorm → HippocampusNorm → MMSE → PTAU → TAU → VentricleNorm → WholeBrainNorm
+
+exp4:
+  EntorhinalNorm → ADAS13 → RAVLT_immediate → MidTempNorm → FusiformNorm → ABETA → HippocampusNorm → MMSE → PTAU → TAU → VentricleNorm → WholeBrainNorm
+
+exp5:
+  MidTempNorm → EntorhinalNorm → FusiformNorm → RAVLT_immediate → ABETA → ADAS13 → HippocampusNorm → MMSE → PTAU → TAU → WholeBrainNorm → VentricleNorm
+
+exp6:
+  MidTempNorm → FusiformNorm → EntorhinalNorm → ADAS13 → ABETA → RAVLT_immediate → HippocampusNorm → MMSE → PTAU → TAU → VentricleNorm → WholeBrainNorm
+
+exp7:
+  MidTempNorm → EntorhinalNorm → FusiformNorm → ADAS13 → RAVLT_immediate → HippocampusNorm → ABETA → MMSE → TAU → PTAU → VentricleNorm → WholeBrainNorm
+
+exp8:
+  EntorhinalNorm → FusiformNorm → MidTempNorm → RAVLT_immediate → ABETA → ADAS13 → HippocampusNorm → MMSE → PTAU → TAU → WholeBrainNorm → VentricleNorm
+
+exp9:
+  EntorhinalNorm → MidTempNorm → FusiformNorm → ADAS13 → ABETA → RAVLT_immediate → HippocampusNorm → PTAU → MMSE → TAU → VentricleNorm → WholeBrainNorm
+
+--------------------------------------------------------------------------------
+2. BIOMARKER POSITION MATRIX (Rank 1 = Earliest)
+--------------------------------------------------------------------------------
+
+Biomarker           exp1  exp2  exp3  exp4  exp5  exp6  exp7  exp8  exp9   Mean   Std        95% CI
+---------------------------------------------------------------------------------------------------
+EntorhinalNorm         1     3     1     1     2     3     2     1     1    1.7   0.9    [1.0, 2.3]
+MidTempNorm            2     2     2     4     1     1     1     3     2    2.0   1.0    [1.2, 2.8]
+FusiformNorm           3     5     6     5     3     2     3     2     3    3.6   1.4    [2.5, 4.7]
+ADAS13                 4     1     3     2     6     4     4     6     4    3.8   1.6    [2.5, 5.0]
+RAVLT_immediate        5     4     4     3     4     6     5     4     6    4.6   1.0    [3.8, 5.3]
+ABETA                  6     6     5     6     5     5     7     5     5    5.6   0.7    [5.0, 6.1]
+HippocampusNorm        7     8     7     7     7     7     6     7     7    7.0   0.5    [6.6, 7.4]
+MMSE                   8     7     8     8     8     8     8     8     9    8.0   0.5    [7.6, 8.4]
+PTAU                   9    10     9     9     9     9    10     9     8    9.1   0.6    [8.6, 9.6]
+TAU                   10     9    10    10    10    10     9    10    10    9.8   0.4   [9.4, 10.1]
+VentricleNorm         11    11    11    11    12    11    11    12    11   11.2   0.4  [10.9, 11.6]
+WholeBrainNorm        12    12    12    12    11    12    12    11    12   11.8   0.4  [11.4, 12.1]
+
+--------------------------------------------------------------------------------
+3. CONSENSUS ORDERING (by mean rank)
+--------------------------------------------------------------------------------
+
+  EntorhinalNorm → MidTempNorm → FusiformNorm → ADAS13 → RAVLT_immediate → ABETA → HippocampusNorm → MMSE → PTAU → TAU → VentricleNorm → WholeBrainNorm
+
+--------------------------------------------------------------------------------
+4. CONTINUOUS EVENT TIMES (exp8, exp9)
+--------------------------------------------------------------------------------
+
+exp8:
+  EntorhinalNorm       0.2574
+  FusiformNorm         0.3401
+  MidTempNorm          0.3447
+  RAVLT_immediate      0.5229
+  ABETA                0.5418
+  ADAS13               0.5698
+  HippocampusNorm      0.6211
+  MMSE                 0.6918
+  PTAU                 0.7081
+  TAU                  0.7428
+  WholeBrainNorm       0.7898
+  VentricleNorm        0.7957
+
+exp9:
+  EntorhinalNorm       0.2677
+  MidTempNorm          0.2920
+  FusiformNorm         0.3024
+  ADAS13               0.5042
+  ABETA                0.5501
+  RAVLT_immediate      0.5533
+  HippocampusNorm      0.5981
+  PTAU                 0.6088
+  MMSE                 0.6284
+  TAU                  0.6503
+  VentricleNorm        0.6905
+  WholeBrainNorm       0.7415
+
+--------------------------------------------------------------------------------
+5. BIOLOGICAL INTERPRETATION
+--------------------------------------------------------------------------------
+
+EARLY EVENTS (ranks 1-4):
+  EntorhinalNorm, MidTempNorm, FusiformNorm, ADAS13
+  → Temporal lobe atrophy and amyloid accumulation
+
+MIDDLE EVENTS (ranks 5-8):
+  RAVLT_immediate, ABETA, HippocampusNorm, MMSE
+  → Cognitive decline and hippocampal atrophy
+
+LATE EVENTS (ranks 9-12):
+  PTAU, TAU, VentricleNorm, WholeBrainNorm
+  → Tau pathology and global brain atrophy
+
+--------------------------------------------------------------------------------
+6. AVERAGE PREDICTED STAGE BY DIAGNOSIS GROUP
+--------------------------------------------------------------------------------
+
+Exp             CN      EMCI      LMCI        AD
+------------------------------------------------
+exp1          0.01      5.28      9.35     11.56
+exp2          0.01      4.88      7.95     10.14
+exp3          0.00      5.12      8.79     11.06
+exp4          0.01      4.38      7.74     10.53
+exp5         -0.00      6.11      8.06     10.14
+exp6          0.49      6.42      8.65     10.01
+exp7         -0.01      6.99      8.36      9.55
+exp8          0.00      5.56      8.64     11.50
+exp9          0.00      4.91      9.12     11.58
+------------------------------------------------
+Mean          0.06      5.52      8.52     10.68
+
+================================================================================

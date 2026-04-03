@@ -1,0 +1,39 @@
+{
+  "experiment": "exp8",
+  "n_biomarkers": 12,
+  "architecture": "unified",
+  "true_order": {
+    "EntorhinalNorm": 1,
+    "FusiformNorm": 2,
+    "MidTempNorm": 3,
+    "RAVLT_immediate": 4,
+    "ABETA": 5,
+    "ADAS13": 6,
+    "HippocampusNorm": 7,
+    "MMSE": 8,
+    "PTAU": 9,
+    "TAU": 10,
+    "WholeBrainNorm": 11,
+    "VentricleNorm": 12
+  },
+  "true_order_continuous": {
+    "ABETA": 0.5417611598968506,
+    "ADAS13": 0.569819450378418,
+    "EntorhinalNorm": 0.25738003849983215,
+    "FusiformNorm": 0.3400534987449646,
+    "HippocampusNorm": 0.6211133599281311,
+    "MMSE": 0.6917800307273865,
+    "MidTempNorm": 0.3447115421295166,
+    "PTAU": 0.7080920338630676,
+    "RAVLT_immediate": 0.522912323474884,
+    "TAU": 0.7428151369094849,
+    "VentricleNorm": 0.7957332730293274,
+    "WholeBrainNorm": 0.7898464202880859
+  },
+  "dx_avg_stages": {
+    "AD": 11.500382794274223,
+    "CN": 0.0010442454488046708,
+    "EMCI": 5.564405233650417,
+    "LMCI": 8.642444165581363
+  }
+}

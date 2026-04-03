@@ -1,0 +1,60 @@
+N_VARIANTS_train: 1000 # how many training datasets (including 50 for validation)
+N_VARIANTS_test: 50 # how many test datasets
+GEN_SEED_TRAIN: 1234 # random seed to generate training data
+GEN_SEED_TEST: 42 # random seed to generate test data
+INFER_SEED: 0 # random seed for patient subsampling during inference
+JS: [726] # how many participants 
+RS: [0.21] # healthy participant percentage 
+
+EXPERIMENT_NAMES:
+  - sn_kjOrdinalDM_xnjNormal                  # Experiment 1: Ordinal k_j, Dirichlet-Multinomial stage prior, Normal biomarker distributions
+  - sn_kjOrdinalDM_xnjNonNormal               # Experiment 2: Ordinal k_j, Dirichlet-Multinomial stage prior, Non-Normal biomarker distributions
+  - sn_kjOrdinalUniform_xnjNormal             # Experiment 3: Ordinal k_j, Uniform stage prior, Normal biomarker distributions
+  - sn_kjOrdinalUniform_xnjNonNormal          # Experiment 4: Ordinal k_j, Uniform stage prior, Non-Normal biomarker distributions
+  - sn_kjContinuousBeta_sigmoid               # Experiment 5: Continuous k_j (Beta distribution), sigmoid measurement model
+  - sn_kjContinuousBeta_xnjNormal             # Experiment 6: Continuous k_j (Beta distribution), Normal biomarker distributions (EBM)
+  - sn_kjContinuousBeta_xnjNonNormal          # Experiment 7: Continuous k_j (Beta distribution), Non-Normal biomarker distributions (EBM)
+  - xiNearNormalWithNoise_kjContinuousBeta_sigmoid     # Experiment 8: Continuous xi (near-normal with noise), Continuous k_j (Beta), sigmoid measurement model
+  - xiNearNormalWithNoise_kjContinuousBeta_xnjNormal   # Experiment 9: Continuous xi (near-normal with noise), Continuous k_j (Beta), EBM framework with Normal biomarker distributions
+
+id_dx_json: "./id_dx.json" # the ADNI participant id: diagnosis (AD, CN, EMCI, LMCI)
+adni_csv: "./adni.csv" # location of ADNI.csv. You need to process the ADNIMERGE.csv from the ADNNI homepage (after you are granted access)
+# Process it to make it a tidy data:
+
+#participant,diseased,biomarker,measurement
+#0,True,ADAS13,22
+
+adni_results_dir: "./adni_results/"
+
+gpus:
+  2: [exp1, exp2, exp3, exp4, exp5, exp6, exp7, exp8, exp9]
+  # 0: [exp1, exp2, exp3, exp4, exp5]
+  # 1: [exp6, exp7, exp8, exp9]
+
+VAL_FILES: 50 # validation dataset number (how many to use for validation)
+
+# Training data limit (set to large number to use all)
+MAX_TRAIN_FILES: 1000
+
+epochs_lowdim: 25
+epochs_highdim: 50
+patience: 15  # early stopping: stop if val metric doesn't improve for this many consecutive epochs
+lr: 0.0001
+samples_per_file: 16
+d_model: 256
+
+# Sampling
+n_samples: 256
+batch_size: 48
+
+# Hardware
+num_workers: 4       
+
+# Model architecture
+nhead: 8
+num_layers: 4
+dropout: 0.1
+
+# Multi-task learning weights
+lambda_ranking: 1.0
+lambda_stage: 1.0

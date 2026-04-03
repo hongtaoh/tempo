@@ -1,0 +1,23 @@
+Training started: Sat Mar 28 07:42:46 AM JST 2026
+Lowdim training time:  00:51:06
+  exp1: 00:05:34
+  exp2: 00:05:39
+  exp3: 00:05:39
+  exp4: 00:05:39
+  exp5: 00:05:38
+  exp6: 00:05:39
+  exp7: 00:05:38
+  exp8: 00:05:39
+  exp9: 00:05:38
+Highdim training time: 07:05:51
+  exp1: 00:43:36
+  exp2: 00:47:53
+  exp3: 00:47:40
+  exp4: 00:47:53
+  exp5: 00:47:32
+  exp6: 00:47:40
+  exp7: 00:47:35
+  exp8: 00:47:47
+  exp9: 00:47:14
+Total training time:   07:56:57
+Training ended:  Sat Mar 28 03:39:43 PM JST 2026

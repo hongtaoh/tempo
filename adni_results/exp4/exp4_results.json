@@ -1,0 +1,25 @@
+{
+  "experiment": "exp4",
+  "n_biomarkers": 12,
+  "architecture": "unified",
+  "true_order": {
+    "EntorhinalNorm": 1,
+    "ADAS13": 2,
+    "RAVLT_immediate": 3,
+    "MidTempNorm": 4,
+    "FusiformNorm": 5,
+    "ABETA": 6,
+    "HippocampusNorm": 7,
+    "MMSE": 8,
+    "PTAU": 9,
+    "TAU": 10,
+    "VentricleNorm": 11,
+    "WholeBrainNorm": 12
+  },
+  "dx_avg_stages": {
+    "AD": 10.53243389628292,
+    "CN": 0.007367296997577913,
+    "EMCI": 4.384330685322102,
+    "LMCI": 7.744247743638895
+  }
+}
