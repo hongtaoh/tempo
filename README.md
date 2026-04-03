@@ -1,7 +1,11 @@
 # TEMPO
 
-This repository contains codes, data and models to reproduce the results reported in the submission of *TEMPO: Transformers for Temporal Disease Progression from
-Cross-Sectional Data*.
+This repository contains codes, data and models to reproduce the results reported in the submission of *TEMPO: Transformers for Temporal Disease Progression from Cross-Sectional Data*.
+
+Additionally,
+
+- [`https://github.com/hongtaoh/TEMPO_lowdim`](https://github.com/hongtaoh/TEMPO_lowdim) contains the reproducible codes for the low dimensional experiments for the benchmarking algorithms. 
+- [`https://github.com/hongtaoh/TEMPO_highdim`](https://github.com/hongtaoh/TEMPO_lowdim) contains the reproducible codes for the high dimensional experiments for the benchmarking algorithms. 
 
 ## Table of Contents
 
