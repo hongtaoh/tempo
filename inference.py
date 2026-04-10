@@ -135,232 +135,6 @@ class PositionalEncoding(nn.Module):
         return x + self.pos_embedding[:, :x.size(1), :]
 
 
-class SimpleTransformer(nn.Module):
-    """Original architecture with Transformer over patients for staging."""
-    def __init__(self, n_biomarkers=10, max_stage=10, config=None):
-        super().__init__()
-        if config is None:
-            config = CONFIG
-
-        d = config.get('d_model', 128)
-        nhead = config.get('nhead', 8)
-        num_layers = config.get('num_layers', 4)
-        dropout = config.get('dropout', 0.2)
-
-        self.n_biomarkers = n_biomarkers
-        self.max_stage = max_stage
-        self.d_model = d
-        self.architecture_type = "simple"
-
-        self.patient_encoder = nn.Sequential(
-            nn.Linear(2, d),
-            nn.LayerNorm(d),
-            nn.ReLU(),
-            nn.Linear(d, d),
-            nn.LayerNorm(d),
-            nn.ReLU()
-        )
-
-        self.pos_encoding = PositionalEncoding(d, max_len=n_biomarkers + 10)
-
-        encoder_layer = nn.TransformerEncoderLayer(
-            d_model=d,
-            nhead=nhead,
-            dim_feedforward=d * 4,
-            dropout=dropout,
-            batch_first=True,
-            norm_first=True
-        )
-        self.biomarker_transformer = nn.TransformerEncoder(encoder_layer, num_layers=num_layers)
-
-        self.ranking_head = nn.Sequential(
-            nn.Linear(d, d // 2),
-            nn.ReLU(),
-            nn.Dropout(dropout),
-            nn.Linear(d // 2, 1)
-        )
-
-        self.stage_encoder = nn.Sequential(
-            nn.Linear(n_biomarkers + 1, d * 2),
-            nn.LayerNorm(d * 2),
-            nn.ReLU(),
-            nn.Dropout(dropout)
-        )
-
-        stage_encoder_layer = nn.TransformerEncoderLayer(
-            d_model=d * 2,
-            nhead=nhead,
-            dim_feedforward=d * 4,
-            dropout=dropout,
-            batch_first=True,
-            norm_first=True
-        )
-        self.stage_transformer = nn.TransformerEncoder(stage_encoder_layer, num_layers=2)
-
-        self.stage_head = nn.Sequential(
-            nn.Linear(d * 2, 128),
-            nn.LayerNorm(128),
-            nn.ReLU(),
-            nn.Dropout(dropout),
-            nn.Linear(128, 1)
-        )
-
-    def forward_ranking(self, x):
-        batch_size, n_samples, n_features = x.shape
-        n_bio = self.n_biomarkers
-
-        biomarkers = x[:, :, :n_bio]
-        diseased = x[:, :, -1:]
-
-        bio_features = []
-        for i in range(n_bio):
-            bio_vals = biomarkers[:, :, i:i+1]
-            combined = torch.cat([bio_vals, diseased], dim=-1)
-            encoded = self.patient_encoder(combined)
-            pooled = torch.mean(encoded, dim=1)
-            bio_features.append(pooled)
-
-        bio_features = torch.stack(bio_features, dim=1)
-        bio_features = self.pos_encoding(bio_features)
-        bio_features = self.biomarker_transformer(bio_features)
-        scores = self.ranking_head(bio_features).squeeze(-1)
-
-        return scores
-
-    def forward_stage(self, x):
-        encoded = self.stage_encoder(x)
-        encoded = self.stage_transformer(encoded)
-        out = self.stage_head(encoded).squeeze(-1)
-        return out
-
-    def forward(self, x):
-        rank_scores = self.forward_ranking(x)
-        stage_pred = self.forward_stage(x)
-        return rank_scores, stage_pred
-
-
-class ConnectedTransformer(nn.Module):
-    """Connected architecture with abnormality detector for staging."""
-    def __init__(self, n_biomarkers=10, max_stage=10, config=None):
-        super().__init__()
-        if config is None:
-            config = CONFIG
-
-        d = config.get('d_model', 128)
-        nhead = config.get('nhead', 8)
-        num_layers = config.get('num_layers', 4)
-        dropout = config.get('dropout', 0.2)
-
-        self.n_biomarkers = n_biomarkers
-        self.max_stage = max_stage
-        self.d_model = d
-        self.architecture_type = "connected"
-
-        self.patient_encoder = nn.Sequential(
-            nn.Linear(2, d),
-            nn.LayerNorm(d),
-            nn.ReLU(),
-            nn.Linear(d, d),
-            nn.LayerNorm(d),
-            nn.ReLU()
-        )
-
-        self.pos_encoding = PositionalEncoding(d, max_len=n_biomarkers + 10)
-
-        encoder_layer = nn.TransformerEncoderLayer(
-            d_model=d,
-            nhead=nhead,
-            dim_feedforward=d * 4,
-            dropout=dropout,
-            batch_first=True,
-            norm_first=True
-        )
-        self.biomarker_transformer = nn.TransformerEncoder(encoder_layer, num_layers=num_layers)
-
-        self.ranking_head = nn.Sequential(
-            nn.Linear(d, d // 2),
-            nn.ReLU(),
-            nn.Dropout(dropout),
-            nn.Linear(d // 2, 1)
-        )
-
-        self.abnormality_detector = nn.Sequential(
-            nn.Linear(3, d),
-            nn.ReLU(),
-            nn.Linear(d, d),
-            nn.ReLU(),
-            nn.Linear(d, 1),
-            nn.Sigmoid()
-        )
-
-        self.stage_refiner = nn.Sequential(
-            nn.Linear(n_biomarkers + 1, d),
-            nn.ReLU(),
-            nn.Linear(d, 1)
-        )
-
-    def forward_ranking(self, x):
-        batch_size, n_samples, n_features = x.shape
-        n_bio = self.n_biomarkers
-
-        biomarkers = x[:, :, :n_bio]
-        diseased = x[:, :, -1:]
-
-        bio_features = []
-        for i in range(n_bio):
-            bio_vals = biomarkers[:, :, i:i+1]
-            combined = torch.cat([bio_vals, diseased], dim=-1)
-            encoded = self.patient_encoder(combined)
-            pooled = torch.mean(encoded, dim=1)
-            bio_features.append(pooled)
-
-        bio_features = torch.stack(bio_features, dim=1)
-        bio_features = self.pos_encoding(bio_features)
-        bio_features = self.biomarker_transformer(bio_features)
-        scores = self.ranking_head(bio_features).squeeze(-1)
-
-        return scores
-
-    def forward_stage(self, x, biomarker_scores):
-        batch_size, n_samples, n_features = x.shape
-        n_bio = self.n_biomarkers
-
-        biomarkers = x[:, :, :n_bio]
-        diseased = x[:, :, -1]
-
-        scores_normalized = torch.sigmoid(biomarker_scores)
-
-        abnormality_probs = []
-        for i in range(n_bio):
-            bio_val = biomarkers[:, :, i]
-            bio_score = scores_normalized[:, i:i+1]
-            bio_score_expanded = bio_score.expand(-1, n_samples)
-
-            detector_input = torch.stack([bio_val, diseased, bio_score_expanded], dim=-1)
-            detector_input_flat = detector_input.view(-1, 3)
-            prob_flat = self.abnormality_detector(detector_input_flat)
-            prob = prob_flat.view(batch_size, n_samples)
-
-            abnormality_probs.append(prob)
-
-        abnormality_probs = torch.stack(abnormality_probs, dim=-1)
-        base_stage = torch.sum(abnormality_probs, dim=-1)
-
-        refine_input = torch.cat([abnormality_probs, base_stage.unsqueeze(-1)], dim=-1)
-        refine_input_flat = refine_input.view(-1, n_bio + 1)
-        correction_flat = self.stage_refiner(refine_input_flat)
-        correction = correction_flat.view(batch_size, n_samples)
-
-        stage_pred = base_stage + correction
-
-        return stage_pred
-
-    def forward(self, x):
-        rank_scores = self.forward_ranking(x)
-        stage_pred = self.forward_stage(x, rank_scores)
-        return rank_scores, stage_pred
-
-
 class UnifiedTransformer(nn.Module):
     """Unified architecture combining abnormality detector with patient attention."""
     def __init__(self, n_biomarkers=10, max_stage=10, config=None):
@@ -470,12 +244,7 @@ class UnifiedTransformer(nn.Module):
 
 
 def create_model(n_biomarkers, max_stage, architecture_type, config=None):
-    if architecture_type == "simple":
-        return SimpleTransformer(n_biomarkers, max_stage, config)
-    elif architecture_type == "unified":
-        return UnifiedTransformer(n_biomarkers, max_stage, config)
-    else:
-        return ConnectedTransformer(n_biomarkers, max_stage, config)
+    return UnifiedTransformer(n_biomarkers, max_stage, config)
 
 
 # ==========================================
@@ -908,26 +677,26 @@ def save_summary_tables(all_results, test_exps, output_path):
         for test_exp in test_exps:
             val = mae_matrix[model_name][test_exp]
             if val is not None:
-                row += f" {val:>{col_width}.2f} |"
+                row += f" {val:>{col_width}.3f} |"
                 row_vals.append(val)
             else:
                 row += f" {'N/A':>{col_width}} |"
         row_mean = np.mean(row_vals) if row_vals else None
-        row += f" {row_mean:>{col_width}.2f} |" if row_mean is not None else f" {'N/A':>{col_width}} |"
+        row += f" {row_mean:>{col_width}.3f} |" if row_mean is not None else f" {'N/A':>{col_width}} |"
         lines.append(row)
-    
+
     lines.append("-" * len(header))
     col_mean_row = f"{'Col Mean':>14} |"
     all_col_means = []
     for test_exp in test_exps:
         val = col_means_mae[test_exp]
         if val is not None:
-            col_mean_row += f" {val:>{col_width}.2f} |"
+            col_mean_row += f" {val:>{col_width}.3f} |"
             all_col_means.append(val)
         else:
             col_mean_row += f" {'N/A':>{col_width}} |"
     overall_mean = np.mean(all_col_means) if all_col_means else None
-    col_mean_row += f" {overall_mean:>{col_width}.2f} |" if overall_mean is not None else f" {'N/A':>{col_width}} |"
+    col_mean_row += f" {overall_mean:>{col_width}.3f} |" if overall_mean is not None else f" {'N/A':>{col_width}} |"
     lines.append(col_mean_row)
     
     # Stage MAE CI Table
@@ -950,9 +719,9 @@ def save_summary_tables(all_results, test_exps, output_path):
             if raw_vals and len(raw_vals) >= 2:
                 mean = np.mean(raw_vals)
                 ci_low, ci_high = compute_ci_95(raw_vals)
-                cell = f"{mean:.2f} [{ci_low:.2f}, {ci_high:.2f}]"
+                cell = f"{mean:.3f} [{ci_low:.3f}, {ci_high:.3f}]"
             elif raw_vals:
-                cell = f"{np.mean(raw_vals):.2f}"
+                cell = f"{np.mean(raw_vals):.3f}"
             else:
                 cell = "N/A"
             row += f" {cell:^{ci_col_width}} |"
@@ -962,7 +731,7 @@ def save_summary_tables(all_results, test_exps, output_path):
     lines.append("")
     lines.append("=" * 120)
     lines.append("Notes:")
-    lines.append("  (S) = SimpleTransformer, (C) = ConnectedTransformer, (U) = UnifiedTransformer")
+    lines.append("  (U) = UnifiedTransformer")
     lines.append("  Kendall Tau Distance = (1 - τ) / 2, where τ is Kendall's tau correlation")
     lines.append("  Lower tau distance indicates better ranking performance (0 = perfect, 1 = worst)")
     lines.append("  Sequence MAE = Mean absolute error between predicted event times and ground truth event times")
@@ -1041,7 +810,7 @@ def main():
         n_bio = checkpoint['n_biomarkers']
         max_stage = checkpoint['max_stage']
         saved_config = checkpoint.get('config', CONFIG)
-        architecture_type = checkpoint.get('architecture_type', 'simple')
+        architecture_type = checkpoint.get('architecture_type', 'unified')
 
         print(f"  n_biomarkers: {n_bio}")
         print(f"  architecture: {architecture_type}")
