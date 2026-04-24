@@ -10,40 +10,40 @@ set -e
 ROOT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$ROOT_DIR"
 
-# # ── Step 1: Inference ─────────────────────────────────────────────────────────
-# echo ""
-# echo "========================================"
-# echo " STEP 1 / 3 : Inference"
-# echo "========================================"
+# ── Step 1: Inference ─────────────────────────────────────────────────────────
+echo ""
+echo "========================================"
+echo " STEP 1 / 3 : Inference"
+echo "========================================"
 
-# mkdir -p "$ROOT_DIR/results/12bio" "$ROOT_DIR/results/100bio"
+mkdir -p "$ROOT_DIR/results/12bio" "$ROOT_DIR/results/100bio"
 
-# echo "Running inference on lowdim models..."
-# python3 "$ROOT_DIR/inference.py" \
-#     --models_dir models \
-#     --test_dir test \
-#     --output results/12bio/cross_experiment_results.json
+echo "Running inference on lowdim models..."
+python3 "$ROOT_DIR/inference.py" \
+    --models_dir models \
+    --test_dir test \
+    --output results/12bio/cross_experiment_results.json
 
-# echo ""
-# echo "Running inference on highdim models..."
-# python3 "$ROOT_DIR/inference.py" \
-#     --models_dir models_highdim \
-#     --test_dir test_highdim \
-#     --output results/100bio/cross_experiment_results.json
+echo ""
+echo "Running inference on highdim models..."
+python3 "$ROOT_DIR/inference.py" \
+    --models_dir models_highdim \
+    --test_dir test_highdim \
+    --output results/100bio/cross_experiment_results.json
 
-# # ── Step 2: Flatten results ───────────────────────────────────────────────────
-# echo ""
-# echo "========================================"
-# echo " STEP 2 / 3 : Flatten results"
-# echo "========================================"
+# ── Step 2: Flatten results ───────────────────────────────────────────────────
+echo ""
+echo "========================================"
+echo " STEP 2 / 3 : Flatten results"
+echo "========================================"
 
-# python3 "$ROOT_DIR/postprocess_scripts/flatten_diagonal_results.py" \
-#     --input "$ROOT_DIR/results/12bio/cross_experiment_results.json" \
-#     --output "$ROOT_DIR/results/12bio_tempo.csv"
+python3 "$ROOT_DIR/postprocess_scripts/flatten_diagonal_results.py" \
+    --input "$ROOT_DIR/results/12bio/cross_experiment_results.json" \
+    --output "$ROOT_DIR/results/12bio_tempo.csv"
 
-# python3 "$ROOT_DIR/postprocess_scripts/flatten_diagonal_results.py" \
-#     --input "$ROOT_DIR/results/100bio/cross_experiment_results.json" \
-#     --output "$ROOT_DIR/results/100bio_tempo.csv"
+python3 "$ROOT_DIR/postprocess_scripts/flatten_diagonal_results.py" \
+    --input "$ROOT_DIR/results/100bio/cross_experiment_results.json" \
+    --output "$ROOT_DIR/results/100bio_tempo.csv"
 
 # ── Step 3: Plots ─────────────────────────────────────────────────────────────
 echo ""

@@ -2249,453 +2249,453 @@ J,R,E,M,algo,runtime,kendalls_tau,mae
 726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),49,DEBM GMM,42.46221470832825,0.1515151515151515,1.263085399449036
 726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),49,UCL GMM,78.56542015075684,0.196969696969697,0.8980716253443526
 726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),49,UCL KDE,79.33721685409546,0.3333333333333333,1.519283746556474
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),0,TEMPO,,0.1212121212121212,0.66015625
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),1,TEMPO,,0.0151515151515151,0.58203125
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),10,TEMPO,,0.0454545454545455,0.66015625
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),11,TEMPO,,0.0757575757575758,0.54296875
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),12,TEMPO,,0.0151515151515151,0.6640625
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),13,TEMPO,,0.0454545454545455,0.66015625
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),14,TEMPO,,0.0606060606060606,0.73828125
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),15,TEMPO,,0.0909090909090909,0.5
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),16,TEMPO,,0.0303030303030303,0.4296875
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),17,TEMPO,,0.1060606060606061,0.58203125
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),18,TEMPO,,0.0606060606060606,0.58984375
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),19,TEMPO,,0.0151515151515151,0.75390625
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),2,TEMPO,,0.0303030303030303,0.41796875
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),20,TEMPO,,0.0757575757575758,0.58984375
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),21,TEMPO,,0.0606060606060606,0.4765625
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),22,TEMPO,,0.0757575757575758,0.69921875
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),23,TEMPO,,0.0757575757575758,0.44921875
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),24,TEMPO,,0.1060606060606061,0.578125
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),25,TEMPO,,0.0303030303030303,0.52734375
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),26,TEMPO,,0.0606060606060606,0.64453125
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),27,TEMPO,,0.0151515151515151,0.8046875
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),28,TEMPO,,0.1060606060606061,0.46484375
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),29,TEMPO,,0.0757575757575758,0.6015625
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),3,TEMPO,,0.0454545454545455,0.5234375
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),30,TEMPO,,0.0454545454545455,0.5859375
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),31,TEMPO,,0.0757575757575758,0.72265625
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),32,TEMPO,,1.1102230246251563e-16,0.49609375
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),33,TEMPO,,0.0303030303030303,0.65234375
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),34,TEMPO,,0.0606060606060606,0.609375
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),35,TEMPO,,0.0303030303030303,0.86328125
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),36,TEMPO,,0.0454545454545455,0.625
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),37,TEMPO,,0.1060606060606061,0.65234375
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),38,TEMPO,,0.0909090909090909,0.48828125
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),39,TEMPO,,0.0454545454545455,0.59375
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),4,TEMPO,,0.0606060606060606,0.6015625
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),40,TEMPO,,0.0454545454545455,0.46875
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),41,TEMPO,,0.0454545454545455,0.72265625
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),42,TEMPO,,0.0303030303030303,0.3515625
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),43,TEMPO,,0.0303030303030303,0.6796875
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),44,TEMPO,,0.0303030303030303,0.65234375
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),45,TEMPO,,0.0454545454545455,0.703125
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),46,TEMPO,,0.0303030303030303,0.42578125
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),47,TEMPO,,0.0757575757575758,0.55078125
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),48,TEMPO,,0.0454545454545455,0.640625
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),49,TEMPO,,0.1060606060606061,0.453125
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),5,TEMPO,,0.0303030303030303,0.49609375
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),6,TEMPO,,0.1060606060606061,0.52734375
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),7,TEMPO,,0.0757575757575758,0.79296875
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),8,TEMPO,,0.0606060606060606,0.62890625
-726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),9,TEMPO,,0.0606060606060606,0.5546875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),0,TEMPO,,0.1060606060606061,0.73046875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),1,TEMPO,,0.0454545454545455,0.7265625
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),10,TEMPO,,0.0606060606060606,1.04296875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),11,TEMPO,,0.1212121212121212,0.6328125
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),12,TEMPO,,0.0909090909090909,0.8515625
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),13,TEMPO,,0.1212121212121212,0.90625
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),14,TEMPO,,0.0454545454545455,0.8984375
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),15,TEMPO,,0.1363636363636364,0.75390625
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),16,TEMPO,,0.0909090909090909,0.87890625
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),17,TEMPO,,0.2121212121212121,1.01171875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),18,TEMPO,,0.0606060606060606,1.13671875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),19,TEMPO,,0.0757575757575758,1.1484375
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),2,TEMPO,,0.0757575757575758,0.78515625
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),20,TEMPO,,0.1212121212121212,0.8125
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),21,TEMPO,,0.1060606060606061,0.71875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),22,TEMPO,,0.0757575757575758,0.8828125
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),23,TEMPO,,0.1515151515151515,0.6875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),24,TEMPO,,0.0606060606060606,0.640625
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),25,TEMPO,,0.0606060606060606,1.0078125
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),26,TEMPO,,0.0303030303030303,0.78125
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),27,TEMPO,,0.0454545454545455,0.76171875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),28,TEMPO,,0.1060606060606061,0.73046875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),29,TEMPO,,0.0303030303030303,0.9765625
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),3,TEMPO,,0.0757575757575758,0.92578125
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),30,TEMPO,,0.0909090909090909,0.8125
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),31,TEMPO,,0.0606060606060606,1.21875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),32,TEMPO,,0.1060606060606061,0.98046875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),33,TEMPO,,0.1060606060606061,1.015625
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),34,TEMPO,,0.0454545454545455,0.84375
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),35,TEMPO,,0.0454545454545455,1.03125
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),36,TEMPO,,0.1363636363636364,0.73828125
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),37,TEMPO,,0.0606060606060606,0.9140625
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),38,TEMPO,,0.1060606060606061,0.98046875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),39,TEMPO,,0.1060606060606061,0.9609375
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),4,TEMPO,,0.0757575757575758,0.69921875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),40,TEMPO,,0.1515151515151515,0.78515625
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),41,TEMPO,,0.0606060606060606,0.98828125
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),42,TEMPO,,0.0909090909090909,0.5859375
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),43,TEMPO,,0.0454545454545455,0.78515625
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),44,TEMPO,,0.1363636363636364,0.859375
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),45,TEMPO,,0.0606060606060606,0.7890625
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),46,TEMPO,,0.0606060606060606,0.8671875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),47,TEMPO,,0.0909090909090909,0.91796875
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),48,TEMPO,,0.0606060606060606,0.68359375
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),49,TEMPO,,0.0909090909090909,0.640625
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),5,TEMPO,,0.1060606060606061,0.75
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),6,TEMPO,,0.0909090909090909,0.6953125
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),7,TEMPO,,0.1212121212121212,1.30078125
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),8,TEMPO,,0.0757575757575758,0.67578125
-726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),9,TEMPO,,0.1060606060606061,0.66796875
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),0,TEMPO,,0.0303030303030303,0.58203125
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),1,TEMPO,,0.0303030303030303,0.59375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),10,TEMPO,,0.0454545454545455,0.56640625
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),11,TEMPO,,0.0454545454545455,0.52734375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),12,TEMPO,,0.0151515151515151,0.63671875
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),13,TEMPO,,0.0454545454545455,0.7421875
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),14,TEMPO,,0.0303030303030303,0.671875
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),15,TEMPO,,0.0303030303030303,0.58984375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),16,TEMPO,,0.0303030303030303,0.6171875
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),17,TEMPO,,0.0151515151515151,0.6484375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),18,TEMPO,,0.0454545454545455,0.62109375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),19,TEMPO,,0.0151515151515151,0.80078125
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),2,TEMPO,,0.0757575757575758,0.5625
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),20,TEMPO,,0.0454545454545455,0.60546875
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),21,TEMPO,,0.0151515151515151,0.52734375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),22,TEMPO,,0.0606060606060606,0.578125
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),23,TEMPO,,0.0303030303030303,0.45703125
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),24,TEMPO,,0.0151515151515151,0.5390625
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),25,TEMPO,,1.1102230246251563e-16,0.58203125
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),26,TEMPO,,0.0303030303030303,0.515625
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),27,TEMPO,,0.0151515151515151,0.609375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),28,TEMPO,,0.0454545454545455,0.5078125
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),29,TEMPO,,0.0606060606060606,0.609375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),3,TEMPO,,0.0151515151515151,0.5390625
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),30,TEMPO,,0.0151515151515151,0.65234375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),31,TEMPO,,1.1102230246251563e-16,0.73046875
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),32,TEMPO,,1.1102230246251563e-16,0.72265625
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),33,TEMPO,,1.1102230246251563e-16,0.75
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),34,TEMPO,,0.0303030303030303,0.55859375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),35,TEMPO,,0.0303030303030303,0.7421875
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),36,TEMPO,,1.1102230246251563e-16,0.5390625
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),37,TEMPO,,0.0303030303030303,0.58984375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),38,TEMPO,,0.0151515151515151,0.48046875
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),39,TEMPO,,0.0606060606060606,0.58203125
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),4,TEMPO,,0.0303030303030303,0.80078125
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),40,TEMPO,,0.0151515151515151,0.71484375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),41,TEMPO,,1.1102230246251563e-16,0.63671875
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),42,TEMPO,,0.0303030303030303,0.5703125
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),43,TEMPO,,0.0303030303030303,0.640625
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),44,TEMPO,,0.0757575757575758,0.609375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),45,TEMPO,,0.0151515151515151,0.7265625
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),46,TEMPO,,0.0151515151515151,0.578125
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),47,TEMPO,,0.0303030303030303,0.578125
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),48,TEMPO,,0.0303030303030303,0.578125
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),49,TEMPO,,0.0151515151515151,0.640625
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),5,TEMPO,,0.0606060606060606,0.73046875
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),6,TEMPO,,0.0303030303030303,0.5234375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),7,TEMPO,,0.0606060606060606,0.72265625
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),8,TEMPO,,0.0303030303030303,0.5234375
-726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),9,TEMPO,,0.0303030303030303,0.55859375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),0,TEMPO,,0.0454545454545455,0.6484375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),1,TEMPO,,0.0606060606060606,0.84375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),10,TEMPO,,0.0757575757575758,0.88671875
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),11,TEMPO,,0.0909090909090909,0.7734375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),12,TEMPO,,0.1060606060606061,1.09375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),13,TEMPO,,0.0757575757575758,0.953125
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),14,TEMPO,,0.0303030303030303,0.94140625
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),15,TEMPO,,0.0454545454545455,1.0703125
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),16,TEMPO,,0.1060606060606061,0.7265625
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),17,TEMPO,,0.0303030303030303,0.62109375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),18,TEMPO,,0.0757575757575758,0.78125
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),19,TEMPO,,0.1212121212121212,1.15625
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),2,TEMPO,,0.0454545454545455,0.8046875
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),20,TEMPO,,0.0303030303030303,1.0390625
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),21,TEMPO,,0.0606060606060606,0.6875
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),22,TEMPO,,0.0606060606060606,0.89453125
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),23,TEMPO,,0.1060606060606061,0.74609375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),24,TEMPO,,0.0606060606060606,0.6796875
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),25,TEMPO,,0.0606060606060606,1.05859375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),26,TEMPO,,0.0606060606060606,0.80078125
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),27,TEMPO,,0.0303030303030303,0.9375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),28,TEMPO,,0.0606060606060606,0.86328125
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),29,TEMPO,,0.0303030303030303,0.7890625
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),3,TEMPO,,0.0757575757575758,0.6484375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),30,TEMPO,,0.0606060606060606,0.9375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),31,TEMPO,,0.0606060606060606,1.2421875
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),32,TEMPO,,0.0303030303030303,0.7265625
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),33,TEMPO,,0.0454545454545455,0.87109375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),34,TEMPO,,0.0757575757575758,0.99609375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),35,TEMPO,,0.0909090909090909,1.24609375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),36,TEMPO,,0.0151515151515151,0.9375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),37,TEMPO,,0.0454545454545455,1.05859375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),38,TEMPO,,0.1515151515151515,0.73828125
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),39,TEMPO,,0.0606060606060606,0.82421875
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),4,TEMPO,,0.0909090909090909,1.0234375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),40,TEMPO,,0.0303030303030303,0.92578125
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),41,TEMPO,,0.1060606060606061,0.984375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),42,TEMPO,,0.0909090909090909,0.80078125
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),43,TEMPO,,0.0151515151515151,0.91796875
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),44,TEMPO,,0.1515151515151515,0.84375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),45,TEMPO,,0.0757575757575758,0.8671875
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),46,TEMPO,,0.0303030303030303,0.71875
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),47,TEMPO,,0.0454545454545455,0.671875
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),48,TEMPO,,0.0303030303030303,0.9296875
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),49,TEMPO,,0.0454545454545455,0.61328125
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),5,TEMPO,,0.0909090909090909,0.8671875
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),6,TEMPO,,0.0757575757575758,0.73046875
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),7,TEMPO,,0.0909090909090909,1.12890625
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),8,TEMPO,,0.0909090909090909,0.99609375
-726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),9,TEMPO,,0.0909090909090909,0.85546875
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,0,TEMPO,,0.0909090909090909,0.56640625
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,1,TEMPO,,0.0151515151515151,0.59765625
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,10,TEMPO,,0.0606060606060606,0.7578125
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,11,TEMPO,,0.0909090909090909,0.55859375
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,12,TEMPO,,0.0303030303030303,0.703125
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,13,TEMPO,,0.0454545454545455,0.56640625
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,14,TEMPO,,0.0303030303030303,0.69921875
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,15,TEMPO,,0.0606060606060606,0.62109375
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,16,TEMPO,,0.0606060606060606,0.51171875
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,17,TEMPO,,0.0606060606060606,0.59375
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,18,TEMPO,,0.0909090909090909,0.578125
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,19,TEMPO,,0.0303030303030303,0.83203125
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,2,TEMPO,,0.0303030303030303,0.5390625
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,20,TEMPO,,0.0454545454545455,0.62890625
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,21,TEMPO,,0.0757575757575758,0.56640625
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,22,TEMPO,,0.0454545454545455,0.6015625
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,23,TEMPO,,0.1212121212121212,0.5234375
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,24,TEMPO,,0.0606060606060606,0.5
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,25,TEMPO,,0.0454545454545455,0.5
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,26,TEMPO,,0.0606060606060606,0.62109375
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,27,TEMPO,,0.0757575757575758,0.5625
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,28,TEMPO,,0.0606060606060606,0.4375
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,29,TEMPO,,0.0454545454545455,0.46875
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,3,TEMPO,,0.1363636363636364,0.59765625
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,30,TEMPO,,0.0606060606060606,0.63671875
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,31,TEMPO,,0.0606060606060606,0.6328125
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,32,TEMPO,,0.0151515151515151,0.6171875
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,33,TEMPO,,0.0454545454545455,0.78515625
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,34,TEMPO,,0.0606060606060606,0.58203125
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,35,TEMPO,,0.0606060606060606,0.875
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,36,TEMPO,,0.0454545454545455,0.51953125
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,37,TEMPO,,0.0454545454545455,0.53125
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,38,TEMPO,,0.0757575757575758,0.45703125
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,39,TEMPO,,0.0606060606060606,0.53125
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,4,TEMPO,,0.0151515151515151,0.7890625
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,40,TEMPO,,0.0151515151515151,0.5703125
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,41,TEMPO,,0.0454545454545455,0.67578125
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,42,TEMPO,,0.0151515151515151,0.6015625
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,43,TEMPO,,0.0757575757575758,0.5625
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,44,TEMPO,,0.0909090909090909,0.54296875
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,45,TEMPO,,0.0303030303030303,0.8671875
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,46,TEMPO,,0.0757575757575758,0.59375
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,47,TEMPO,,0.0909090909090909,0.66796875
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,48,TEMPO,,0.0757575757575758,0.546875
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,49,TEMPO,,0.1515151515151515,0.66015625
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,5,TEMPO,,0.0606060606060606,0.61328125
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,6,TEMPO,,0.0606060606060606,0.453125
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,7,TEMPO,,0.0454545454545455,0.71875
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,8,TEMPO,,0.0909090909090909,0.484375
-726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,9,TEMPO,,0.0606060606060606,0.52734375
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),0,TEMPO,,0.0757575757575758,0.68359375
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),1,TEMPO,,0.0454545454545455,0.72265625
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),10,TEMPO,,0.0909090909090909,0.6015625
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),11,TEMPO,,0.0454545454545455,0.484375
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),12,TEMPO,,0.0606060606060606,0.65625
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),13,TEMPO,,0.0454545454545455,0.53515625
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),14,TEMPO,,0.0606060606060606,0.54296875
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),15,TEMPO,,0.0757575757575758,0.62890625
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),16,TEMPO,,0.0303030303030303,0.5
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),17,TEMPO,,0.0606060606060606,0.5078125
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),18,TEMPO,,0.0606060606060606,0.51953125
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),19,TEMPO,,0.0606060606060606,0.54296875
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),2,TEMPO,,0.0606060606060606,0.51171875
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),20,TEMPO,,0.0303030303030303,0.38671875
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),21,TEMPO,,0.1363636363636364,0.45703125
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),22,TEMPO,,0.0454545454545455,0.60546875
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),23,TEMPO,,0.1060606060606061,0.4296875
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),24,TEMPO,,0.0303030303030303,0.58203125
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),25,TEMPO,,0.0303030303030303,0.51171875
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),26,TEMPO,,0.0757575757575758,0.50390625
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),27,TEMPO,,0.0454545454545455,0.6484375
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),28,TEMPO,,0.0909090909090909,0.3359375
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),29,TEMPO,,0.0909090909090909,0.3125
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),3,TEMPO,,0.0606060606060606,0.609375
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),30,TEMPO,,0.0454545454545455,0.55078125
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),31,TEMPO,,0.0454545454545455,0.55078125
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),32,TEMPO,,0.0757575757575758,0.47265625
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),33,TEMPO,,0.0606060606060606,0.7265625
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),34,TEMPO,,0.1363636363636364,0.56640625
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),35,TEMPO,,0.0757575757575758,0.6171875
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),36,TEMPO,,0.0757575757575758,0.57421875
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),37,TEMPO,,0.0454545454545455,0.57421875
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),38,TEMPO,,0.1363636363636364,0.38671875
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),39,TEMPO,,0.0757575757575758,0.46484375
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),4,TEMPO,,0.0303030303030303,0.6953125
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),40,TEMPO,,0.1060606060606061,0.54296875
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),41,TEMPO,,0.0606060606060606,0.55859375
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),42,TEMPO,,0.1363636363636364,0.41015625
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),43,TEMPO,,0.0757575757575758,0.484375
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),44,TEMPO,,0.1212121212121212,0.515625
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),45,TEMPO,,0.0606060606060606,0.81640625
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),46,TEMPO,,0.0303030303030303,0.4921875
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),47,TEMPO,,0.1212121212121212,0.4296875
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),48,TEMPO,,0.0454545454545455,0.6328125
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),49,TEMPO,,0.1515151515151515,0.30859375
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),5,TEMPO,,0.0303030303030303,0.453125
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),6,TEMPO,,0.1212121212121212,0.44140625
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),7,TEMPO,,0.0454545454545455,0.5859375
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),8,TEMPO,,0.0303030303030303,0.5
-726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),9,TEMPO,,0.1212121212121212,0.578125
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),0,TEMPO,,0.1060606060606061,0.8671875
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),1,TEMPO,,0.1060606060606061,0.8671875
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),10,TEMPO,,0.0909090909090909,0.66015625
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),11,TEMPO,,0.0909090909090909,0.6484375
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),12,TEMPO,,0.1212121212121212,1.15625
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),13,TEMPO,,0.1363636363636364,0.78125
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),14,TEMPO,,0.0757575757575758,0.63671875
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),15,TEMPO,,0.0606060606060606,0.63671875
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),16,TEMPO,,0.0606060606060606,0.62890625
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),17,TEMPO,,0.1515151515151515,0.875
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),18,TEMPO,,0.0757575757575758,0.65234375
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),19,TEMPO,,0.0757575757575758,0.875
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),2,TEMPO,,0.0757575757575758,0.58203125
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),20,TEMPO,,0.0303030303030303,0.7734375
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),21,TEMPO,,0.1363636363636364,0.73046875
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),22,TEMPO,,0.0909090909090909,0.7890625
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),23,TEMPO,,0.1666666666666666,0.75
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),24,TEMPO,,0.1212121212121212,0.6484375
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),25,TEMPO,,0.0606060606060606,1.0546875
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),26,TEMPO,,0.1060606060606061,0.71484375
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),27,TEMPO,,0.0606060606060606,0.80078125
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),28,TEMPO,,0.1515151515151515,0.5234375
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),29,TEMPO,,0.1363636363636364,0.31640625
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),3,TEMPO,,0.1515151515151515,0.96875
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),30,TEMPO,,0.0757575757575758,0.84765625
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),31,TEMPO,,0.1060606060606061,0.62109375
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),32,TEMPO,,0.1515151515151515,0.875
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),33,TEMPO,,0.0757575757575758,1.0078125
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),34,TEMPO,,0.0909090909090909,0.5234375
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),35,TEMPO,,0.0909090909090909,0.75390625
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),36,TEMPO,,0.1363636363636364,0.6953125
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),37,TEMPO,,0.0757575757575758,0.67578125
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),38,TEMPO,,0.1060606060606061,0.43359375
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),39,TEMPO,,0.1212121212121212,0.66796875
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),4,TEMPO,,0.0757575757575758,0.98828125
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),40,TEMPO,,0.1212121212121212,0.84765625
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),41,TEMPO,,0.1212121212121212,0.640625
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),42,TEMPO,,0.0909090909090909,0.625
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),43,TEMPO,,0.1515151515151515,0.8828125
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),44,TEMPO,,0.196969696969697,0.625
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),45,TEMPO,,0.0303030303030303,1.1484375
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),46,TEMPO,,0.1060606060606061,0.74609375
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),47,TEMPO,,0.1212121212121212,0.74609375
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),48,TEMPO,,0.1212121212121212,0.84765625
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),49,TEMPO,,0.1363636363636364,0.78515625
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),5,TEMPO,,0.0303030303030303,0.61328125
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),6,TEMPO,,0.0606060606060606,0.640625
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),7,TEMPO,,0.0606060606060606,1.078125
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),8,TEMPO,,0.0606060606060606,0.88671875
-726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),9,TEMPO,,0.1363636363636364,0.68359375
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,0,TEMPO,,0.1212121212121212,0.51171875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,1,TEMPO,,0.0303030303030303,0.8671875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,10,TEMPO,,0.1363636363636364,0.61328125
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,11,TEMPO,,0.0757575757575758,0.9296875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,12,TEMPO,,0.1212121212121212,0.66796875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,13,TEMPO,,0.0606060606060606,0.53125
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,14,TEMPO,,0.1060606060606061,0.4609375
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,15,TEMPO,,0.0454545454545455,0.85546875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,16,TEMPO,,0.0303030303030303,0.80859375
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,17,TEMPO,,0.0606060606060606,0.7890625
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,18,TEMPO,,0.0303030303030303,0.640625
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,19,TEMPO,,0.1515151515151515,0.3828125
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,2,TEMPO,,0.1363636363636364,0.5234375
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,20,TEMPO,,0.0606060606060606,0.66796875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,21,TEMPO,,0.1666666666666666,0.48828125
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,22,TEMPO,,0.1363636363636364,0.52734375
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,23,TEMPO,,0.1363636363636364,0.921875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,24,TEMPO,,0.1212121212121212,0.63671875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,25,TEMPO,,0.0454545454545455,0.77734375
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,26,TEMPO,,0.1212121212121212,0.7421875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,27,TEMPO,,0.0454545454545455,0.6875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,28,TEMPO,,0.0909090909090909,0.91015625
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,29,TEMPO,,0.0757575757575758,0.7890625
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,3,TEMPO,,0.0606060606060606,0.9296875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,30,TEMPO,,0.0909090909090909,0.80078125
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,31,TEMPO,,0.0303030303030303,0.8671875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,32,TEMPO,,0.1515151515151515,0.53125
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,33,TEMPO,,0.0606060606060606,0.9453125
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,34,TEMPO,,0.0606060606060606,0.58984375
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,35,TEMPO,,0.1060606060606061,0.94140625
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,36,TEMPO,,0.0757575757575758,0.9140625
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,37,TEMPO,,0.0454545454545455,0.7578125
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,38,TEMPO,,0.0303030303030303,0.75390625
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,39,TEMPO,,0.1060606060606061,0.69140625
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,4,TEMPO,,0.1212121212121212,0.4921875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,40,TEMPO,,0.0606060606060606,1.15625
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,41,TEMPO,,0.0909090909090909,0.96484375
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,42,TEMPO,,0.1060606060606061,0.8515625
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,43,TEMPO,,0.2272727272727273,0.4609375
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,44,TEMPO,,0.0909090909090909,0.66796875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,45,TEMPO,,0.1060606060606061,0.62109375
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,46,TEMPO,,0.1666666666666666,0.44921875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,47,TEMPO,,0.0454545454545455,0.74609375
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,48,TEMPO,,0.1060606060606061,0.625
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,49,TEMPO,,0.0757575757575758,1.03125
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,5,TEMPO,,0.1060606060606061,0.55859375
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,6,TEMPO,,0.0757575757575758,0.62890625
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,7,TEMPO,,0.1212121212121212,0.8046875
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,8,TEMPO,,0.1818181818181818,0.65234375
-726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,9,TEMPO,,0.1060606060606061,0.26953125
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),0,TEMPO,,0.196969696969697,0.6328125
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),1,TEMPO,,0.1818181818181818,0.96484375
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),10,TEMPO,,0.1515151515151515,0.5625
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),11,TEMPO,,0.0757575757575758,0.58984375
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),12,TEMPO,,0.196969696969697,0.5703125
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),13,TEMPO,,0.1363636363636364,0.546875
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),14,TEMPO,,0.2727272727272727,0.5546875
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),15,TEMPO,,0.0757575757575758,0.74609375
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),16,TEMPO,,0.0757575757575758,0.859375
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),17,TEMPO,,0.1515151515151515,0.81640625
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),18,TEMPO,,0.1515151515151515,0.65234375
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),19,TEMPO,,0.1818181818181818,0.44921875
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),2,TEMPO,,0.1363636363636364,0.64453125
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),20,TEMPO,,0.0454545454545455,0.6484375
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),21,TEMPO,,0.2424242424242424,0.6328125
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),22,TEMPO,,0.1363636363636364,0.62109375
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),23,TEMPO,,0.1212121212121212,0.77734375
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),24,TEMPO,,0.196969696969697,0.64453125
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),25,TEMPO,,0.0757575757575758,0.8046875
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),26,TEMPO,,0.0606060606060606,0.640625
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),27,TEMPO,,0.0606060606060606,0.7265625
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),28,TEMPO,,0.0454545454545455,0.76171875
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),29,TEMPO,,0.1060606060606061,0.796875
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),3,TEMPO,,0.0909090909090909,0.7734375
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),30,TEMPO,,0.1212121212121212,0.80859375
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),31,TEMPO,,0.0909090909090909,0.83203125
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),32,TEMPO,,0.1060606060606061,0.6328125
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),33,TEMPO,,0.1515151515151515,0.66015625
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),34,TEMPO,,0.1363636363636364,0.5546875
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),35,TEMPO,,0.0151515151515151,0.7421875
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),36,TEMPO,,0.1060606060606061,0.80078125
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),37,TEMPO,,0.0909090909090909,0.69140625
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),38,TEMPO,,0.0757575757575758,0.5703125
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),39,TEMPO,,0.1515151515151515,0.58984375
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),4,TEMPO,,0.1666666666666666,0.59765625
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),40,TEMPO,,0.0303030303030303,0.8515625
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),41,TEMPO,,0.1666666666666666,0.58203125
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),42,TEMPO,,0.0303030303030303,0.8046875
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),43,TEMPO,,0.1818181818181818,0.5078125
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),44,TEMPO,,0.1515151515151515,0.72265625
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),45,TEMPO,,0.0909090909090909,0.66796875
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),46,TEMPO,,0.0757575757575758,0.44921875
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),47,TEMPO,,0.0454545454545455,0.765625
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),48,TEMPO,,0.1212121212121212,0.68359375
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),49,TEMPO,,0.0606060606060606,0.8671875
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),5,TEMPO,,0.0606060606060606,0.5625
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),6,TEMPO,,0.0909090909090909,0.57421875
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),7,TEMPO,,0.0909090909090909,0.8359375
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),8,TEMPO,,0.0757575757575758,0.66796875
-726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),9,TEMPO,,0.1666666666666666,0.3828125
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),0,TEMPO,,0.0454545454545455,0.6322314143180847
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),1,TEMPO,,0.0303030303030303,0.5909090638160706
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),10,TEMPO,,0.0303030303030303,0.5785123705863953
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),11,TEMPO,,0.1060606060606061,0.5275481939315796
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),12,TEMPO,,0.0151515151515151,0.6170799136161804
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),13,TEMPO,,0.0303030303030303,0.6253443360328674
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),14,TEMPO,,0.0303030303030303,0.6997244954109192
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),15,TEMPO,,0.0454545454545455,0.4834710657596588
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),16,TEMPO,,0.0151515151515151,0.5013774037361145
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),17,TEMPO,,0.0909090909090909,0.5688705444335938
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),18,TEMPO,,0.0303030303030303,0.6322314143180847
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),19,TEMPO,,0.0151515151515151,0.7575757503509521
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),2,TEMPO,,0.0454545454545455,0.4035812616348266
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),20,TEMPO,,0.0757575757575758,0.5592286586761475
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),21,TEMPO,,0.0151515151515151,0.4917355477809906
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),22,TEMPO,,0.0606060606060606,0.6790633797645569
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),23,TEMPO,,0.0909090909090909,0.4504132270812988
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),24,TEMPO,,0.0909090909090909,0.5123966932296753
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),25,TEMPO,,0.0303030303030303,0.5123966932296753
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),26,TEMPO,,0.0303030303030303,0.6033057570457458
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),27,TEMPO,,0.0303030303030303,0.7465564608573914
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),28,TEMPO,,0.0757575757575758,0.4655647277832031
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),29,TEMPO,,0.0606060606060606,0.6129476428031921
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),3,TEMPO,,0.0606060606060606,0.557851254940033
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),30,TEMPO,,0.0454545454545455,0.5247933864593506
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),31,TEMPO,,0.0454545454545455,0.7534435391426086
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),32,TEMPO,,0.0151515151515151,0.5234159827232361
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),33,TEMPO,,0.0151515151515151,0.6088154315948486
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),34,TEMPO,,0.0606060606060606,0.5757575631141663
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),35,TEMPO,,1.1102230246251563e-16,0.8319559097290039
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),36,TEMPO,,0.0151515151515151,0.6170799136161804
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),37,TEMPO,,0.0606060606060606,0.6143250465393066
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),38,TEMPO,,0.0757575757575758,0.4380165338516235
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),39,TEMPO,,0.0606060606060606,0.5468319654464722
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),4,TEMPO,,0.0606060606060606,0.6336088180541992
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),40,TEMPO,,0.0151515151515151,0.4311294853687286
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),41,TEMPO,,0.0454545454545455,0.6942148804664612
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),42,TEMPO,,0.0303030303030303,0.3415977954864502
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),43,TEMPO,,0.0151515151515151,0.6280992031097412
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),44,TEMPO,,0.0454545454545455,0.6280992031097412
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),45,TEMPO,,1.1102230246251563e-16,0.6391184329986572
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),46,TEMPO,,1.1102230246251563e-16,0.4504132270812988
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),47,TEMPO,,0.0606060606060606,0.589531660079956
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),48,TEMPO,,0.0909090909090909,0.557851254940033
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),49,TEMPO,,0.1060606060606061,0.4476583898067474
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),5,TEMPO,,0.0606060606060606,0.4889807105064392
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),6,TEMPO,,0.0606060606060606,0.4889807105064392
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),7,TEMPO,,0.0303030303030303,0.7906336188316345
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),8,TEMPO,,0.0909090909090909,0.5358126759529114
+726,0.21,Exp 1: Ordinal kj (DM) + EBM + X (Normal),9,TEMPO,,0.0909090909090909,0.4628099203109741
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),0,TEMPO,,0.1212121212121212,0.7066115736961365
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),1,TEMPO,,0.0454545454545455,0.7878788113594055
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),10,TEMPO,,0.0454545454545455,0.9834710955619812
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),11,TEMPO,,0.0757575757575758,0.6983470916748047
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),12,TEMPO,,0.0606060606060606,0.8347107172012329
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),13,TEMPO,,0.1060606060606061,0.910468339920044
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),14,TEMPO,,0.0757575757575758,0.8980716466903687
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),15,TEMPO,,0.0909090909090909,0.7506887316703796
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),16,TEMPO,,0.0757575757575758,0.858126699924469
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),17,TEMPO,,0.1818181818181818,1.002754807472229
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),18,TEMPO,,0.0606060606060606,1.2796143293380735
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),19,TEMPO,,0.0454545454545455,1.0702478885650637
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),2,TEMPO,,0.0454545454545455,0.7823691368103027
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),20,TEMPO,,0.1212121212121212,0.7575757503509521
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),21,TEMPO,,0.1212121212121212,0.6763085126876831
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),22,TEMPO,,0.0303030303030303,0.9022038578987122
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),23,TEMPO,,0.1060606060606061,0.7190082669258118
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),24,TEMPO,,0.0606060606060606,0.6707988977432251
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),25,TEMPO,,0.0454545454545455,0.9435261487960817
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),26,TEMPO,,0.0454545454545455,0.7685950398445129
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),27,TEMPO,,0.0454545454545455,0.797520637512207
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),28,TEMPO,,0.1060606060606061,0.6542699933052063
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),29,TEMPO,,0.0454545454545455,0.9462810158729552
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),3,TEMPO,,0.0757575757575758,0.8429751992225647
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),30,TEMPO,,0.0454545454545455,0.7768595218658447
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),31,TEMPO,,0.0454545454545455,1.1460055112838743
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),32,TEMPO,,0.0606060606060606,0.8512396812438965
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),33,TEMPO,,0.0606060606060606,0.9311294555664062
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),34,TEMPO,,0.0454545454545455,0.8181818127632141
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),35,TEMPO,,0.0606060606060606,0.9752066135406494
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),36,TEMPO,,0.1666666666666666,0.6763085126876831
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),37,TEMPO,,0.0151515151515151,0.9063360691070556
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),38,TEMPO,,0.1060606060606061,0.8595041036605835
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),39,TEMPO,,0.0757575757575758,0.9848484992980956
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),4,TEMPO,,0.0606060606060606,0.7713498473167419
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),40,TEMPO,,0.1060606060606061,0.8154270052909851
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),41,TEMPO,,0.0151515151515151,0.997245192527771
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),42,TEMPO,,0.0757575757575758,0.4958677589893341
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),43,TEMPO,,0.0151515151515151,0.7768595218658447
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),44,TEMPO,,0.0909090909090909,0.8360881805419922
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),45,TEMPO,,1.1102230246251563e-16,0.8250688910484314
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),46,TEMPO,,0.0454545454545455,0.8195592164993286
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),47,TEMPO,,0.0757575757575758,0.8787878751754761
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),48,TEMPO,,0.0757575757575758,0.6528925895690918
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),49,TEMPO,,0.1060606060606061,0.707988977432251
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),5,TEMPO,,0.0909090909090909,0.7906336188316345
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),6,TEMPO,,0.0757575757575758,0.7465564608573914
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),7,TEMPO,,0.0909090909090909,1.2148760557174685
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),8,TEMPO,,0.0757575757575758,0.7038567662239075
+726,0.21,Exp 2: Ordinal kj (DM) + EBM + X (Non-Normal),9,TEMPO,,0.1060606060606061,0.7300275564193726
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),0,TEMPO,,0.0151515151515151,0.5289255976676941
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),1,TEMPO,,1.1102230246251563e-16,0.6170799136161804
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),10,TEMPO,,0.0151515151515151,0.5592286586761475
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),11,TEMPO,,0.0454545454545455,0.5330578684806824
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),12,TEMPO,,1.1102230246251563e-16,0.7300275564193726
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),13,TEMPO,,0.0151515151515151,0.5991735458374023
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),14,TEMPO,,1.1102230246251563e-16,0.6101928353309631
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),15,TEMPO,,0.0151515151515151,0.5234159827232361
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),16,TEMPO,,1.1102230246251563e-16,0.6046832203865051
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),17,TEMPO,,0.0151515151515151,0.5041322112083435
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),18,TEMPO,,0.0151515151515151,0.6143250465393066
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),19,TEMPO,,1.1102230246251563e-16,0.7272727489471436
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),2,TEMPO,,0.0303030303030303,0.5881542563438416
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),20,TEMPO,,0.0151515151515151,0.647382915019989
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),21,TEMPO,,0.0151515151515151,0.5426997542381287
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),22,TEMPO,,0.0151515151515151,0.6460055112838745
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),23,TEMPO,,1.1102230246251563e-16,0.439393937587738
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),24,TEMPO,,0.0151515151515151,0.5537189841270447
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),25,TEMPO,,1.1102230246251563e-16,0.6267217397689819
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),26,TEMPO,,0.0151515151515151,0.5509641766548157
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),27,TEMPO,,0.0151515151515151,0.5826446413993835
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),28,TEMPO,,1.1102230246251563e-16,0.5137740969657898
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),29,TEMPO,,0.0151515151515151,0.6280992031097412
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),3,TEMPO,,0.0151515151515151,0.5702479481697083
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),30,TEMPO,,0.0151515151515151,0.6349862217903137
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),31,TEMPO,,1.1102230246251563e-16,0.705234169960022
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),32,TEMPO,,1.1102230246251563e-16,0.7038567662239075
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),33,TEMPO,,1.1102230246251563e-16,0.6831955909729004
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),34,TEMPO,,0.0151515151515151,0.5426997542381287
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),35,TEMPO,,1.1102230246251563e-16,0.7451790571212769
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),36,TEMPO,,1.1102230246251563e-16,0.5716253519058228
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),37,TEMPO,,1.1102230246251563e-16,0.56611567735672
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),38,TEMPO,,0.0303030303030303,0.5592286586761475
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),39,TEMPO,,0.0303030303030303,0.5275481939315796
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),4,TEMPO,,0.0151515151515151,0.7341597676277161
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),40,TEMPO,,1.1102230246251563e-16,0.5647382736206055
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),41,TEMPO,,1.1102230246251563e-16,0.6680440902709961
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),42,TEMPO,,0.0151515151515151,0.5330578684806824
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),43,TEMPO,,0.0151515151515151,0.5909090638160706
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),44,TEMPO,,0.0757575757575758,0.6033057570457458
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),45,TEMPO,,1.1102230246251563e-16,0.7011018991470337
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),46,TEMPO,,1.1102230246251563e-16,0.5922865271568298
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),47,TEMPO,,1.1102230246251563e-16,0.555096447467804
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),48,TEMPO,,0.0454545454545455,0.5688705444335938
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),49,TEMPO,,1.1102230246251563e-16,0.557851254940033
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),5,TEMPO,,0.0151515151515151,0.6308540105819702
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),6,TEMPO,,0.0151515151515151,0.5523415803909302
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),7,TEMPO,,0.0303030303030303,0.6914600729942322
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),8,TEMPO,,0.0151515151515151,0.5289255976676941
+726,0.21,Exp 3: Ordinal kj (Uniform) + EBM + X (Normal),9,TEMPO,,0.0151515151515151,0.5785123705863953
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),0,TEMPO,,0.0303030303030303,0.7369145750999451
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),1,TEMPO,,0.0151515151515151,0.8774104714393616
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),10,TEMPO,,0.0454545454545455,0.8388429880142212
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),11,TEMPO,,0.0151515151515151,0.797520637512207
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),12,TEMPO,,0.0606060606060606,1.0633609294891355
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),13,TEMPO,,0.0454545454545455,0.9752066135406494
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),14,TEMPO,,0.0454545454545455,0.8953167796134949
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),15,TEMPO,,0.0454545454545455,1.0234159231185913
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),16,TEMPO,,0.0303030303030303,0.7727272510528564
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),17,TEMPO,,0.0454545454545455,0.6845729947090149
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),18,TEMPO,,0.0454545454545455,0.8071625232696533
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),19,TEMPO,,0.0303030303030303,1.0564738512039185
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),2,TEMPO,,1.1102230246251563e-16,0.7865013480186462
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),20,TEMPO,,0.0303030303030303,1.0
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),21,TEMPO,,0.0454545454545455,0.8099173307418823
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),22,TEMPO,,0.0303030303030303,0.858126699924469
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),23,TEMPO,,0.0303030303030303,0.6721763014793396
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),24,TEMPO,,0.0454545454545455,0.6515151262283325
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),25,TEMPO,,0.0151515151515151,0.9297520518302916
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),26,TEMPO,,0.0303030303030303,0.7644628286361694
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),27,TEMPO,,0.0151515151515151,0.9035812616348268
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),28,TEMPO,,0.0454545454545455,0.85537189245224
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),29,TEMPO,,0.0454545454545455,0.936639130115509
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),3,TEMPO,,0.0454545454545455,0.7162534594535828
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),30,TEMPO,,0.0454545454545455,0.9531680345535278
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),31,TEMPO,,0.0151515151515151,1.0936639308929443
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),32,TEMPO,,0.0151515151515151,0.7162534594535828
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),33,TEMPO,,1.1102230246251563e-16,0.8443526029586792
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),34,TEMPO,,0.0454545454545455,0.915977954864502
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),35,TEMPO,,0.0606060606060606,1.202479362487793
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),36,TEMPO,,0.0303030303030303,0.9807162284851074
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),37,TEMPO,,0.0303030303030303,1.002754807472229
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),38,TEMPO,,0.1212121212121212,0.6928374767303467
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),39,TEMPO,,0.0454545454545455,0.852617084980011
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),4,TEMPO,,0.0606060606060606,1.0523415803909302
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),40,TEMPO,,0.0303030303030303,0.9049586653709412
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),41,TEMPO,,0.0454545454545455,0.8608815670013428
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),42,TEMPO,,0.0757575757575758,0.7906336188316345
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),43,TEMPO,,0.0151515151515151,0.8443526029586792
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),44,TEMPO,,0.1060606060606061,0.9779614210128784
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),45,TEMPO,,0.0151515151515151,0.9504132270812988
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),46,TEMPO,,0.0454545454545455,0.7685950398445129
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),47,TEMPO,,1.1102230246251563e-16,0.7658402323722839
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),48,TEMPO,,0.0151515151515151,0.8539944887161255
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),49,TEMPO,,0.0151515151515151,0.6074380278587341
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),5,TEMPO,,0.0303030303030303,0.9118457436561584
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),6,TEMPO,,0.0303030303030303,0.8305785059928894
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),7,TEMPO,,0.0454545454545455,1.0495867729187012
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),8,TEMPO,,0.0606060606060606,0.8719007968902588
+726,0.21,Exp 4: Ordinal kj (Uniform) + EBM + X (Non-Normal),9,TEMPO,,0.0303030303030303,0.7837465405464172
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,0,TEMPO,,0.0454545454545455,0.6749311089515686
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,1,TEMPO,,0.0303030303030303,0.581267237663269
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,10,TEMPO,,0.0303030303030303,0.7520661354064941
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,11,TEMPO,,0.0606060606060606,0.5523415803909302
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,12,TEMPO,,0.0454545454545455,0.7603305578231812
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,13,TEMPO,,0.0454545454545455,0.5757575631141663
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,14,TEMPO,,0.0909090909090909,0.6212121248245239
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,15,TEMPO,,0.0303030303030303,0.6143250465393066
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,16,TEMPO,,0.0151515151515151,0.5426997542381287
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,17,TEMPO,,0.0606060606060606,0.6157024502754211
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,18,TEMPO,,0.0303030303030303,0.5647382736206055
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,19,TEMPO,,1.1102230246251563e-16,0.8195592164993286
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,2,TEMPO,,0.0303030303030303,0.586776852607727
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,20,TEMPO,,0.0303030303030303,0.557851254940033
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,21,TEMPO,,0.0454545454545455,0.5426997542381287
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,22,TEMPO,,0.0303030303030303,0.6404958963394165
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,23,TEMPO,,0.1060606060606061,0.5192837715148926
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,24,TEMPO,,0.0151515151515151,0.5413222908973694
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,25,TEMPO,,0.0151515151515151,0.5537189841270447
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,26,TEMPO,,0.0454545454545455,0.5495867729187012
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,27,TEMPO,,0.0303030303030303,0.6005509495735168
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,28,TEMPO,,0.0454545454545455,0.4986225962638855
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,29,TEMPO,,0.0303030303030303,0.497245192527771
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,3,TEMPO,,0.0606060606060606,0.5977961421012878
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,30,TEMPO,,1.1102230246251563e-16,0.6349862217903137
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,31,TEMPO,,0.0454545454545455,0.7162534594535828
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,32,TEMPO,,0.0303030303030303,0.5826446413993835
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,33,TEMPO,,0.0757575757575758,0.7699724435806274
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,34,TEMPO,,0.0606060606060606,0.5592286586761475
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,35,TEMPO,,0.0454545454545455,0.8663911819458008
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,36,TEMPO,,0.0151515151515151,0.5206611752510071
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,37,TEMPO,,1.1102230246251563e-16,0.5179063081741333
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,38,TEMPO,,0.0606060606060606,0.4586776793003082
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,39,TEMPO,,0.0606060606060606,0.5743801593780518
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,4,TEMPO,,0.0151515151515151,0.8677685856819153
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,40,TEMPO,,0.0151515151515151,0.5289255976676941
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,41,TEMPO,,0.0606060606060606,0.7823691368103027
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,42,TEMPO,,0.0151515151515151,0.6253443360328674
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,43,TEMPO,,0.0606060606060606,0.5702479481697083
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,44,TEMPO,,0.0454545454545455,0.5509641766548157
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,45,TEMPO,,0.0151515151515151,0.8360881805419922
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,46,TEMPO,,0.0454545454545455,0.5798898339271545
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,47,TEMPO,,0.0757575757575758,0.6391184329986572
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,48,TEMPO,,0.0606060606060606,0.5964187383651733
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,49,TEMPO,,0.0454545454545455,0.6184573173522949
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,5,TEMPO,,0.0454545454545455,0.6336088180541992
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,6,TEMPO,,0.0606060606060606,0.4531680345535278
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,7,TEMPO,,0.0151515151515151,0.64462810754776
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,8,TEMPO,,0.0303030303030303,0.5068870782852173
+726,0.21,Exp 5: Continuous kj (Beta) + Sigmoid,9,TEMPO,,0.0909090909090909,0.6019283533096313
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),0,TEMPO,,0.0606060606060606,0.7093663811683655
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),1,TEMPO,,0.0303030303030303,0.705234169960022
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),10,TEMPO,,0.0606060606060606,0.5991735458374023
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),11,TEMPO,,0.0454545454545455,0.3939394056797027
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),12,TEMPO,,0.0454545454545455,0.7520661354064941
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),13,TEMPO,,0.0454545454545455,0.4793388545513153
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),14,TEMPO,,0.0151515151515151,0.5509641766548157
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),15,TEMPO,,0.0606060606060606,0.5619834661483765
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),16,TEMPO,,0.0303030303030303,0.4325068891048431
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),17,TEMPO,,0.1363636363636364,0.4269972443580627
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),18,TEMPO,,0.0757575757575758,0.4793388545513153
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),19,TEMPO,,0.0303030303030303,0.5826446413993835
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),2,TEMPO,,0.0454545454545455,0.4146005511283874
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),20,TEMPO,,0.0303030303030303,0.4352616965770721
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),21,TEMPO,,0.0909090909090909,0.4628099203109741
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),22,TEMPO,,0.0454545454545455,0.555096447467804
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),23,TEMPO,,0.1060606060606061,0.4311294853687286
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),24,TEMPO,,0.0606060606060606,0.5275481939315796
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),25,TEMPO,,0.0454545454545455,0.4311294853687286
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),26,TEMPO,,0.0454545454545455,0.439393937587738
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),27,TEMPO,,0.0606060606060606,0.6005509495735168
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),28,TEMPO,,0.0909090909090909,0.3898071646690368
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),29,TEMPO,,0.0909090909090909,0.3002754747867584
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),3,TEMPO,,0.0303030303030303,0.5454545617103577
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),30,TEMPO,,0.0454545454545455,0.5592286586761475
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),31,TEMPO,,0.0757575757575758,0.5385674834251404
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),32,TEMPO,,0.0303030303030303,0.4325068891048431
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),33,TEMPO,,0.0151515151515151,0.7341597676277161
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),34,TEMPO,,0.0606060606060606,0.4407713413238525
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),35,TEMPO,,0.0454545454545455,0.5785123705863953
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),36,TEMPO,,0.0454545454545455,0.5798898339271545
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),37,TEMPO,,0.0454545454545455,0.5206611752510071
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),38,TEMPO,,0.1060606060606061,0.3319559097290039
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),39,TEMPO,,0.0606060606060606,0.4421487748622894
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),4,TEMPO,,0.0303030303030303,0.7575757503509521
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),40,TEMPO,,0.0454545454545455,0.4807162582874298
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),41,TEMPO,,0.0454545454545455,0.6019283533096313
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),42,TEMPO,,0.0606060606060606,0.4462809860706329
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),43,TEMPO,,0.0454545454545455,0.5440771579742432
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),44,TEMPO,,0.0757575757575758,0.5096418857574463
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),45,TEMPO,,0.0303030303030303,0.8471074104309082
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),46,TEMPO,,0.0454545454545455,0.5247933864593506
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),47,TEMPO,,0.1363636363636364,0.4834710657596588
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),48,TEMPO,,0.0303030303030303,0.5881542563438416
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),49,TEMPO,,0.1363636363636364,0.3333333432674408
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),5,TEMPO,,0.0303030303030303,0.4449035823345184
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),6,TEMPO,,0.0757575757575758,0.4586776793003082
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),7,TEMPO,,0.0151515151515151,0.5688705444335938
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),8,TEMPO,,0.0303030303030303,0.4421487748622894
+726,0.21,Exp 6: Continuous kj (Beta) + EBM + X (Normal),9,TEMPO,,0.1060606060606061,0.4793388545513153
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),0,TEMPO,,0.1363636363636364,0.8719007968902588
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),1,TEMPO,,0.1060606060606061,0.9311294555664062
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),10,TEMPO,,0.0909090909090909,0.6666666865348816
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),11,TEMPO,,0.0909090909090909,0.581267237663269
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),12,TEMPO,,0.1060606060606061,1.1253443956375122
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),13,TEMPO,,0.1060606060606061,0.7713498473167419
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),14,TEMPO,,0.0757575757575758,0.6363636255264282
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),15,TEMPO,,0.0606060606060606,0.7479338645935059
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),16,TEMPO,,0.1363636363636364,0.6928374767303467
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),17,TEMPO,,0.1212121212121212,0.7727272510528564
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),18,TEMPO,,0.0606060606060606,0.6432507038116455
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),19,TEMPO,,0.0303030303030303,0.8278236985206604
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),2,TEMPO,,0.0606060606060606,0.5991735458374023
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),20,TEMPO,,0.0454545454545455,0.7203856706619263
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),21,TEMPO,,0.0151515151515151,0.7878788113594055
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),22,TEMPO,,0.0757575757575758,0.8388429880142212
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),23,TEMPO,,0.1363636363636364,0.650137722492218
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),24,TEMPO,,0.1363636363636364,0.6019283533096313
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),25,TEMPO,,0.0454545454545455,0.9242424368858336
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),26,TEMPO,,0.0151515151515151,0.6542699933052063
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),27,TEMPO,,0.0454545454545455,0.8154270052909851
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),28,TEMPO,,0.1666666666666666,0.5454545617103577
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),29,TEMPO,,0.1060606060606061,0.3953168094158172
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),3,TEMPO,,0.0909090909090909,0.9173553586006165
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),30,TEMPO,,0.0606060606060606,0.8209366202354431
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),31,TEMPO,,0.1212121212121212,0.5674931406974792
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),32,TEMPO,,0.1212121212121212,0.8374655842781067
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),33,TEMPO,,0.0757575757575758,1.0881543159484863
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),34,TEMPO,,0.1060606060606061,0.5743801593780518
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),35,TEMPO,,0.0303030303030303,0.7672176361083984
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),36,TEMPO,,0.0909090909090909,0.6818181872367859
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),37,TEMPO,,0.0909090909090909,0.6639118194580078
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),38,TEMPO,,0.1515151515151515,0.46694216132164
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),39,TEMPO,,0.0909090909090909,0.6790633797645569
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),4,TEMPO,,0.0757575757575758,0.9517906308174132
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),40,TEMPO,,0.1060606060606061,0.8016529083251953
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),41,TEMPO,,0.0909090909090909,0.650137722492218
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),42,TEMPO,,0.1212121212121212,0.6212121248245239
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),43,TEMPO,,0.1212121212121212,0.8732782602310181
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),44,TEMPO,,0.1060606060606061,0.6749311089515686
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),45,TEMPO,,0.0303030303030303,1.1225895881652832
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),46,TEMPO,,0.0757575757575758,0.7438016533851624
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),47,TEMPO,,0.1060606060606061,0.7878788113594055
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),48,TEMPO,,0.0757575757575758,1.0096418857574463
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),49,TEMPO,,0.0606060606060606,0.7245178818702698
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),5,TEMPO,,0.0606060606060606,0.6804407835006714
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),6,TEMPO,,0.0303030303030303,0.6432507038116455
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),7,TEMPO,,0.0454545454545455,0.9641873240470886
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),8,TEMPO,,1.1102230246251563e-16,0.7754821181297302
+726,0.21,Exp 7: Continuous kj (Beta) + EBM + X (Non-Normal),9,TEMPO,,0.1212121212121212,0.6584022045135498
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,0,TEMPO,,0.0757575757575758,0.5275481939315796
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,1,TEMPO,,0.0454545454545455,0.7396694421768188
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,10,TEMPO,,0.1060606060606061,0.6143250465393066
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,11,TEMPO,,0.0454545454545455,0.8677685856819153
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,12,TEMPO,,0.0909090909090909,0.6556473970413208
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,13,TEMPO,,0.1060606060606061,0.5261707901954651
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,14,TEMPO,,0.0909090909090909,0.4159779548645019
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,15,TEMPO,,0.0454545454545455,0.7272727489471436
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,16,TEMPO,,0.0151515151515151,0.93388432264328
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,17,TEMPO,,0.0606060606060606,0.7286501526832581
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,18,TEMPO,,0.0454545454545455,0.6212121248245239
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,19,TEMPO,,0.1212121212121212,0.3980716168880462
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,2,TEMPO,,0.0606060606060606,0.6790633797645569
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,20,TEMPO,,0.0151515151515151,0.6887052059173584
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,21,TEMPO,,0.1363636363636364,0.4297520518302917
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,22,TEMPO,,0.1060606060606061,0.4986225962638855
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,23,TEMPO,,0.0606060606060606,0.9834710955619812
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,24,TEMPO,,0.0909090909090909,0.6377410292625427
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,25,TEMPO,,0.0303030303030303,0.8057851195335388
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,26,TEMPO,,0.0606060606060606,0.7286501526832581
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,27,TEMPO,,0.0151515151515151,0.6914600729942322
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,28,TEMPO,,0.0454545454545455,0.8209366202354431
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,29,TEMPO,,0.0606060606060606,0.8209366202354431
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,3,TEMPO,,0.0757575757575758,0.8429751992225647
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,30,TEMPO,,0.0606060606060606,0.7451790571212769
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,31,TEMPO,,0.0303030303030303,0.8994490504264832
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,32,TEMPO,,0.1060606060606061,0.5454545617103577
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,33,TEMPO,,0.0757575757575758,0.8636363744735718
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,34,TEMPO,,0.0909090909090909,0.6942148804664612
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,35,TEMPO,,0.0454545454545455,0.7520661354064941
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,36,TEMPO,,0.0454545454545455,0.8388429880142212
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,37,TEMPO,,0.0909090909090909,0.7782369256019592
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,38,TEMPO,,0.0151515151515151,0.7355371713638306
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,39,TEMPO,,0.1212121212121212,0.6074380278587341
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,4,TEMPO,,0.1363636363636364,0.4531680345535278
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,40,TEMPO,,0.0454545454545455,0.9876033067703248
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,41,TEMPO,,0.1060606060606061,0.9793388247489928
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,42,TEMPO,,0.0606060606060606,0.7713498473167419
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,43,TEMPO,,0.1818181818181818,0.5179063081741333
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,44,TEMPO,,0.0606060606060606,0.6818181872367859
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,45,TEMPO,,0.0909090909090909,0.6404958963394165
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,46,TEMPO,,0.0909090909090909,0.4476583898067474
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,47,TEMPO,,0.0454545454545455,0.7520661354064941
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,48,TEMPO,,0.1060606060606061,0.7121211886405945
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,49,TEMPO,,0.0454545454545455,0.9490358233451844
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,5,TEMPO,,0.0151515151515151,0.6460055112838745
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,6,TEMPO,,0.0606060606060606,0.586776852607727
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,7,TEMPO,,0.0757575757575758,0.7727272510528564
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,8,TEMPO,,0.1212121212121212,0.6115702390670776
+726,0.21,Exp 8: xi (Noise) + Continuous kj (Beta) + Sigmoid,9,TEMPO,,0.1060606060606061,0.3388429880142212
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),0,TEMPO,,0.1515151515151515,0.5757575631141663
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),1,TEMPO,,0.1818181818181818,0.7410468459129333
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),10,TEMPO,,0.0909090909090909,0.589531660079956
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),11,TEMPO,,0.0606060606060606,0.6336088180541992
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),12,TEMPO,,0.1666666666666666,0.6170799136161804
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),13,TEMPO,,0.1060606060606061,0.5110192894935608
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),14,TEMPO,,0.196969696969697,0.5206611752510071
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),15,TEMPO,,0.0909090909090909,0.6914600729942322
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),16,TEMPO,,0.0454545454545455,0.8360881805419922
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),17,TEMPO,,0.0909090909090909,0.7754821181297302
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),18,TEMPO,,0.1666666666666666,0.6225895285606384
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),19,TEMPO,,0.196969696969697,0.3953168094158172
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),2,TEMPO,,0.0757575757575758,0.5909090638160706
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),20,TEMPO,,0.0303030303030303,0.6639118194580078
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),21,TEMPO,,0.1818181818181818,0.557851254940033
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),22,TEMPO,,0.1060606060606061,0.4834710657596588
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),23,TEMPO,,0.0909090909090909,0.7465564608573914
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),24,TEMPO,,0.1515151515151515,0.6170799136161804
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),25,TEMPO,,0.0909090909090909,0.7768595218658447
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),26,TEMPO,,0.0606060606060606,0.6625344157218933
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),27,TEMPO,,0.0303030303030303,0.7245178818702698
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),28,TEMPO,,0.0151515151515151,0.8360881805419922
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),29,TEMPO,,0.0606060606060606,0.7245178818702698
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),3,TEMPO,,0.1060606060606061,0.7644628286361694
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),30,TEMPO,,0.0909090909090909,0.6460055112838745
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),31,TEMPO,,0.0454545454545455,0.8898071646690369
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),32,TEMPO,,0.1060606060606061,0.6170799136161804
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),33,TEMPO,,0.0606060606060606,0.7162534594535828
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),34,TEMPO,,0.0909090909090909,0.6955922842025757
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),35,TEMPO,,0.0303030303030303,0.7699724435806274
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),36,TEMPO,,0.0454545454545455,0.71074378490448
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),37,TEMPO,,0.0606060606060606,0.6804407835006714
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),38,TEMPO,,0.0454545454545455,0.5950413346290588
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),39,TEMPO,,0.1515151515151515,0.6349862217903137
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),4,TEMPO,,0.1515151515151515,0.5303030014038086
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),40,TEMPO,,0.0303030303030303,0.8663911819458008
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),41,TEMPO,,0.0909090909090909,0.557851254940033
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),42,TEMPO,,0.0303030303030303,0.774104654788971
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),43,TEMPO,,0.1818181818181818,0.4641873240470886
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),44,TEMPO,,0.1060606060606061,0.6432507038116455
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),45,TEMPO,,0.0606060606060606,0.6322314143180847
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),46,TEMPO,,0.0151515151515151,0.4077135026454925
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),47,TEMPO,,0.0454545454545455,0.7066115736961365
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),48,TEMPO,,0.1212121212121212,0.6404958963394165
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),49,TEMPO,,0.1515151515151515,0.7644628286361694
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),5,TEMPO,,0.0909090909090909,0.5165289044380188
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),6,TEMPO,,0.0303030303030303,0.6184573173522949
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),7,TEMPO,,0.0454545454545455,0.7630854249000549
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),8,TEMPO,,0.0454545454545455,0.6776859760284424
+726,0.21,Exp 9: xi (Noise) + Continuous kj (Beta) + EBM + X (Normal),9,TEMPO,,0.0909090909090909,0.4104683101177215
