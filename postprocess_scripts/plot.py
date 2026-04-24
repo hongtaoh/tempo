@@ -154,7 +154,7 @@ cis = [tau_stats.loc[algo, 'ci_95'] for algo in algo_order]
 ax1.bar(x_pos, means, yerr=cis, color=bar_colors, 
         edgecolor='black', linewidth=0.5, capsize=4, 
         error_kw={'linewidth': 1.2, 'ecolor': 'black'})
-ax1.set_ylabel("Norm. Tau Dist.", fontweight='bold')
+ax1.set_ylabel("Normalized Kendall's Tau Distance", fontweight='bold')
 ax1.set_xticks(x_pos)
 ax1.set_xticklabels(algo_order, rotation=45, ha='right')
 ax1.set_ylim(0, 1.0)
@@ -177,7 +177,7 @@ cis_mae = [mae_stats.loc[algo, 'ci_95'] for algo in mae_order]
 ax2.bar(x_pos, means_mae, yerr=cis_mae, color=bar_colors_mae,
         edgecolor='black', linewidth=0.5, capsize=4,
         error_kw={'linewidth': 1.2, 'ecolor': 'black'})
-ax2.set_ylabel('MAE', fontweight='bold')
+ax2.set_ylabel('Mean Absolute Error (MAE)', fontweight='bold')
 ax2.set_xticks(x_pos)
 ax2.set_xticklabels(mae_order, rotation=45, ha='right')
 ax2.set_title('(B) Mean Absolute Error (↓ better)', fontweight='bold', loc='left')
@@ -216,7 +216,7 @@ for i, algo in enumerate(algo_order):
 
 ax1.set_yticks(y_pos)
 ax1.set_yticklabels(algo_order)
-ax1.set_xlabel("Norm. Tau Dist. (95% CI)", fontweight='bold')
+ax1.set_xlabel("Normalized Kendall's Tau Distance (95% CI)", fontweight='bold')
 ax1.set_title('(A) Normalized Tau Distance', fontweight='bold', loc='left')
 ax1.set_xlim(0, 1.15)
 
@@ -243,7 +243,7 @@ for i, algo in enumerate(mae_order):
 
 ax2.set_yticks(y_pos)
 ax2.set_yticklabels(mae_order)
-ax2.set_xlabel('MAE (95% CI)', fontweight='bold')
+ax2.set_xlabel('Mean Absolute Error (MAE) (95% CI)', fontweight='bold')
 ax2.set_title('(B) Mean Absolute Error', fontweight='bold', loc='left')
 
 plt.tight_layout()
@@ -292,8 +292,8 @@ with plt.rc_context({
     fig, axes = plt.subplots(1, 2, figsize=(14, 8.5))
 
     for panel_idx, (metric, ax, order, title, ylabel) in enumerate([
-        ('kendalls_tau', axes[0], algo_order, '(A) Norm. Tau Dist. Distribution', 'Norm. Tau Dist.'),
-        ('mae', axes[1], mae_order, '(B) MAE Distribution', 'MAE')
+        ('kendalls_tau', axes[0], algo_order, '(A) Sequencing Results', 'Normalized Kendall\'s Tau Distance'),
+        ('mae', axes[1], mae_order, '(B) Staging Results', 'Mean Absolute Error (MAE)')
     ]):
         
         plot_data = [df[df['algo'] == algo][metric].values for algo in order]
@@ -309,7 +309,7 @@ with plt.rc_context({
             patch.set_linewidth(BOX_LINE_WIDTH)
         
         # Style the Median line
-        plt.setp(bp['medians'], color='orange', linewidth=MEDIAN_WIDTH, zorder=5)
+        plt.setp(bp['medians'], color='black', linewidth=MEDIAN_WIDTH, zorder=5)
 
         # 2. Plot the Vertical Ordered Strips
         for i, algo in enumerate(order):
@@ -404,8 +404,8 @@ for algo in algo_order:
                 fontsize=8, va='center', ha='left',
                 bbox=dict(boxstyle="round,pad=0.2", fc="white", alpha=0.7, ec="none"))
 
-ax.set_xlabel("Norm. Tau Dist. (↓ better)", fontweight='bold', fontsize=12)
-ax.set_ylabel('MAE (↓ better)', fontweight='bold', fontsize=12)
+ax.set_xlabel("Normalized Kendall's Tau Distance (↓ better)", fontweight='bold', fontsize=12)
+ax.set_ylabel('Mean Absolute Error (MAE) (↓ better)', fontweight='bold', fontsize=12)
 ax.set_title('Algorithm Performance Comparison\n(with 95% CI Annotations)', 
              fontweight='bold', fontsize=13)
 
@@ -480,7 +480,7 @@ for idx, exp in enumerate(experiments):
     
     ax.set_ylim(0, TAU_YLIM)
     
-    ax.set_ylabel("Norm. Tau Dist.", fontsize=14)
+    ax.set_ylabel("Normalized Kendall's Tau Distance", fontsize=14)
     ax.yaxis.grid(True, linestyle='--', alpha=0.3, color='gray')
     ax.set_axisbelow(True)
     ax.set_title(exp_short_titles[exp], fontsize=12, fontweight='bold', pad=10)
@@ -538,7 +538,7 @@ for idx, exp in enumerate(experiments):
     
     ax.set_xticks(x_pos)
     ax.set_xticklabels(exp_data['Algorithm'], rotation=30, ha='right', fontsize=10, fontweight='bold')
-    ax.set_ylabel("MAE", fontsize=14)
+    ax.set_ylabel("Mean Absolute Error (MAE)", fontsize=14)
     ax.yaxis.grid(True, linestyle='--', alpha=0.3, color='gray')
     ax.set_axisbelow(True)
     ax.set_title(exp_short_titles[exp], fontsize=12, fontweight='bold', pad=10)
