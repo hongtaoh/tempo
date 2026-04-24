@@ -480,9 +480,9 @@ for idx, exp in enumerate(experiments):
     
     ax.set_ylim(0, TAU_YLIM)
     
-    if idx == 0:
+    if idx % n_cols == 0:
         ax.set_ylabel("Normalized Kendall's Tau Distance", fontsize=14)
-        ax.yaxis.grid(True, linestyle='--', alpha=0.3, color='gray')
+    ax.yaxis.grid(True, linestyle='--', alpha=0.3, color='gray')
     ax.set_axisbelow(True)
     ax.set_title(exp_short_titles[exp], fontsize=12, fontweight='bold', pad=10)
 
@@ -539,7 +539,8 @@ for idx, exp in enumerate(experiments):
     
     ax.set_xticks(x_pos)
     ax.set_xticklabels(exp_data['Algorithm'], rotation=30, ha='right', fontsize=10, fontweight='bold')
-    ax.set_ylabel("Mean Absolute Error (MAE)", fontsize=14)
+    if idx % n_cols == 0:
+        ax.set_ylabel("Mean Absolute Error (MAE)", fontsize=14)
     ax.yaxis.grid(True, linestyle='--', alpha=0.3, color='gray')
     ax.set_axisbelow(True)
     ax.set_title(exp_short_titles[exp], fontsize=12, fontweight='bold', pad=10)
