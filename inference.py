@@ -267,7 +267,7 @@ def transform_tau(tau):
     return (1 - tau) / 2
 
 
-def evaluate_single_file(model, csv_path, gt_data, standardizer, n_bio, device, n_samples=256):
+def evaluate_single_file(model, csv_path, gt_data, standardizer, n_bio, device):
     mat, lbl, names = robust_load_file(csv_path, standardizer)
     if mat is None:
         return None, None, None, 0
@@ -289,14 +289,10 @@ def evaluate_single_file(model, csv_path, gt_data, standardizer, n_bio, device, 
         else:
             stages_ordinal = np.pad(stages_ordinal, (0, n_p - len(stages_ordinal)), constant_values=0)
 
-    if n_p <= n_samples:
-        p_idx = np.arange(n_p)
-    else:
-        p_idx = np.random.choice(n_p, n_samples, replace=False)
-
-    sub_mat = mat[p_idx]
-    sub_lbl = lbl[p_idx]
-    sub_stages = stages_ordinal[p_idx]
+    # Use all patients during inference (no subsampling)
+    sub_mat = mat
+    sub_lbl = lbl
+    sub_stages = stages_ordinal
     full_input = torch.cat([sub_mat, sub_lbl.unsqueeze(1)], dim=1).unsqueeze(0)
 
     model.eval()
@@ -329,7 +325,7 @@ def evaluate_single_file(model, csv_path, gt_data, standardizer, n_bio, device, 
     # Sequence MAE in original time units
     sequence_mae = np.mean(np.abs(pred_event_times - gt_event_times))
 
-    return tau_raw, mae, sequence_mae, len(p_idx)
+    return tau_raw, mae, sequence_mae, n_p
 
 
 def evaluate_experiment(model, exp_folder, standardizer, n_bio, device, max_files=None):

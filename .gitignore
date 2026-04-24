@@ -8,10 +8,8 @@ ADNIMERGE.csv
 updatepkg.sh
 README_old.md
 experimental/
-test_highdim/
 train_highdim/
 train/
-test/
 test_transfer/
 .env 
 discuss.md 
