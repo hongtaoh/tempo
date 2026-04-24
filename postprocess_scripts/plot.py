@@ -340,7 +340,8 @@ with plt.rc_context({
         ax.set_xticks(np.arange(len(order)))
         ax.set_xticklabels(order, rotation=10, ha='center', fontweight='bold')
         # ax.set_xticklabels(order, rotation=0, ha='center', fontweight='bold')
-        ax.set_ylabel(ylabel, fontweight='bold')
+        if panel_idx == 0:
+            ax.set_ylabel(ylabel, fontweight='bold')
         ax.set_title(title, fontweight='bold', loc='left')
 
         if panel_idx == 0:
